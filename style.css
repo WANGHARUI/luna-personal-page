@@ -1,0 +1,282 @@
+/* ===== Luna 个人主页 全站样式（极简 / 米白 + 红点缀）===== */
+:root{
+  --paper:#F6F5F1;
+  --ink:#1D2024;
+  --muted:#6B7076;
+  --faint:#9AA0A6;
+  --line:#E2DFD6;
+  --accent:#C6402A;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#17181B;
+    --ink:#ECEAE3;
+    --muted:#9CA2A9;
+    --faint:#6E737A;
+    --line:#2A2C31;
+    --accent:#E0634B;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#17181B;
+  --ink:#ECEAE3;
+  --muted:#9CA2A9;
+  --faint:#6E737A;
+  --line:#2A2C31;
+  --accent:#E0634B;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Noto Sans SC",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a{color:inherit}
+
+.page{
+  max-width:760px;
+  margin:0 auto;
+  padding-inline:clamp(20px,5vw,40px);
+  padding-block:clamp(24px,5vh,44px) clamp(40px,8vh,64px);
+  min-height:100dvh;
+  display:flex;
+  flex-direction:column;
+}
+
+/* ---- 顶栏 / 导航 ---- */
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+  padding-bottom:clamp(28px,7vh,56px);
+}
+.wordmark{
+  font-family:"Fraunces",Georgia,serif;
+  font-weight:600;
+  font-size:1.05rem;
+  letter-spacing:0.02em;
+  text-decoration:none;
+}
+.nav{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  flex-wrap:wrap;
+}
+.nav a{
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.72rem;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--muted);
+  text-decoration:none;
+  padding-bottom:2px;
+  border-bottom:1px solid transparent;
+}
+.nav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.nav a.active{color:var(--ink);border-bottom-color:var(--accent)}
+.nav-search{
+  font:inherit;
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.72rem;
+  color:var(--ink);
+  background:transparent;
+  border:1px solid var(--line);
+  border-radius:99px;
+  padding:4px 12px;
+  width:110px;
+}
+.nav-search:focus{outline:none;border-color:var(--accent)}
+
+/* ---- Hero（主页）---- */
+.hero{margin-bottom:clamp(40px,8vh,72px)}
+.name{
+  font-family:"Fraunces",Georgia,serif;
+  font-weight:600;
+  font-size:clamp(3.4rem,16vw,7rem);
+  line-height:0.95;
+  letter-spacing:-0.01em;
+  margin:0;
+}
+.role{
+  margin:0;
+  font-size:clamp(1rem,2.6vw,1.15rem);
+  font-weight:500;
+  text-align:right;
+}
+.role-en{
+  display:block;
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.72rem;
+  font-weight:400;
+  letter-spacing:0.16em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+.statement-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.rule{border:0;height:2px;background:var(--accent);margin:clamp(20px,4vh,28px) 0 clamp(24px,5vh,32px)}
+.tagline{margin:0 0 18px;font-size:clamp(1.2rem,3.4vw,1.55rem);font-weight:500;line-height:1.65;max-width:30ch;text-wrap:balance}
+.meta-line{margin:0;font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.75rem;letter-spacing:0.06em;color:var(--muted)}
+
+/* ---- 区块标题 ---- */
+.eyebrow{
+  margin:0 0 20px;
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.72rem;
+  font-weight:500;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+/* ---- 文章列表 ---- */
+.posts{list-style:none;margin:0;padding:0}
+.posts li{padding:22px 0;border-top:1px solid var(--line)}
+.posts li:first-child{border-top:0}
+.post-link{text-decoration:none;display:block}
+.post-title{
+  margin:0 0 6px;
+  font-family:"Fraunces",Georgia,serif;
+  font-weight:600;
+  font-size:1.18rem;
+  line-height:1.35;
+}
+.post-link:hover .post-title{color:var(--accent)}
+.post-meta{
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.72rem;
+  letter-spacing:0.05em;
+  color:var(--muted);
+}
+.post-summary{margin:8px 0 0;color:var(--muted);font-size:0.94rem;line-height:1.7}
+.post-tags{margin:10px 0 0;display:flex;gap:8px;flex-wrap:wrap}
+
+/* ---- 标签 ---- */
+.chip{
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.68rem;
+  letter-spacing:0.04em;
+  color:var(--muted);
+  border:1px solid var(--line);
+  border-radius:99px;
+  padding:2px 10px;
+  text-decoration:none;
+}
+.chip:hover{color:var(--accent);border-color:var(--accent)}
+.chip.on{color:var(--paper);background:var(--accent);border-color:var(--accent)}
+
+/* ---- 搜索 + 筛选工具条 ---- */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+.search{
+  flex:1;min-width:180px;
+  font:inherit;font-size:0.92rem;
+  color:var(--ink);
+  background:transparent;
+  border:1px solid var(--line);
+  border-radius:99px;
+  padding:8px 16px;
+}
+.search:focus{outline:none;border-color:var(--accent)}
+
+/* ---- 详情页 ---- */
+.article-head{margin-bottom:clamp(24px,5vh,40px)}
+.article-title{
+  font-family:"Fraunces",Georgia,serif;
+  font-weight:600;
+  font-size:clamp(1.7rem,5vw,2.4rem);
+  line-height:1.2;
+  margin:0 0 14px;
+}
+.article-meta{
+  font-family:"IBM Plex Mono","SFMono-Regular",monospace;
+  font-size:0.75rem;
+  letter-spacing:0.05em;
+  color:var(--muted);
+  display:flex;gap:16px;flex-wrap:wrap;align-items:center;
+}
+.article-hero-img{width:100%;border-radius:6px;margin:0 0 20px;display:block}
+.article-hero-img-cap{
+  text-align:center;font-size:0.74rem;color:var(--faint);margin:-12px 0 26px;
+}
+.article-hero-img-cap a{color:var(--muted)}
+.article-body p{
+  text-indent:2em;          /* 首行缩进两个中文字符 */
+  margin:0 0 1.15em;
+  font-size:1.02rem;
+  line-height:1.95;
+}
+.article-body .lead{font-weight:500;color:var(--ink)}
+
+/* ---- 来源 ---- */
+.sources{margin-top:30px;padding-top:20px;border-top:1px solid var(--line)}
+.sources h2{font-size:0.8rem;letter-spacing:0.1em;color:var(--muted);margin:0 0 10px}
+.sources ol{margin:0;padding-left:1.4em;font-size:0.84rem;color:var(--muted)}
+.sources li{margin:4px 0;word-break:break-all}
+.sources a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+.sources a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* ---- 分享 ---- */
+.share{margin-top:30px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.share span{font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted)}
+.share a{font-size:0.82rem;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:4px 14px}
+.share a:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ---- 上一篇 / 下一篇 ---- */
+.pager{display:flex;justify-content:space-between;gap:16px;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.pager a{text-decoration:none;max-width:48%}
+.pager .dir{font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:4px}
+.pager .t{font-size:0.92rem;line-height:1.5}
+.pager a:hover .t{color:var(--accent)}
+.pager .next{text-align:right}
+
+/* ---- 相关文章 ---- */
+.related{margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.related ul{list-style:none;margin:0;padding:0}
+.related li{margin:10px 0}
+.related a{text-decoration:none;font-size:0.94rem}
+.related a:hover{color:var(--accent)}
+
+/* ---- 分页 ---- */
+.pagination{display:flex;gap:8px;justify-content:center;margin-top:26px}
+.pagination a,.pagination span{font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.8rem;text-decoration:none;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:4px 12px}
+.pagination a:hover{color:var(--accent);border-color:var(--accent)}
+.pagination .cur{color:var(--paper);background:var(--accent);border-color:var(--accent)}
+
+/* ---- 关于我 ---- */
+.about-body{margin:0;max-width:34em;font-size:1.02rem;line-height:1.95}
+.about-body strong{font-weight:600}
+.tags{list-style:none;margin:30px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:12px 22px}
+.tags li{font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.76rem;letter-spacing:0.05em;color:var(--muted);display:inline-flex;align-items:center;gap:9px}
+.tags li::before{content:"";width:6px;height:6px;background:var(--accent)}
+
+/* ---- 页脚 ---- */
+.footer{
+  margin-top:auto;padding-top:clamp(28px,5vh,40px);border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:0.78rem;color:var(--muted);
+}
+.footer a{text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.footer a:hover{border-bottom-color:var(--accent)}
+
+/* ---- 主页最新文章 + 列表缩略图 ---- */
+.latest{padding-top:clamp(32px,6vh,48px);border-top:1px solid var(--line)}
+.more{margin:18px 0 0}
+.more a{font-family:"IBM Plex Mono","SFMono-Regular",monospace;font-size:0.78rem;letter-spacing:0.08em;color:var(--accent);text-decoration:none}
+.more a:hover{border-bottom:1px solid var(--accent)}
+.post-row{display:flex;gap:18px;align-items:flex-start}
+.post-thumb{width:96px;height:64px;object-fit:cover;border-radius:4px;flex-shrink:0;background:var(--line)}
+.post-info{flex:1;min-width:0}
+.nav-search-form{display:inline-flex}
+
+@media (max-width:560px){
+  .nav{gap:13px}
+  .nav-search{width:96px}
+}

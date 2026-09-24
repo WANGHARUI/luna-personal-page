@@ -1,0 +1,95 @@
+{
+  "articles": [
+    {
+      "slug": "meta-muse-ai-glasses",
+      "date": "2026-09-24",
+      "title": "Meta 把 AI 助手塞进眼镜和钥匙扣，还出了款「无摄像头」眼镜",
+      "tags": ["AI硬件"],
+      "lead": "在今年的 Meta Connect 发布会上，扎克伯格给自家 AI 助手 Muse 安排了一场「全家桶」亮相——它被装进了眼镜、钥匙扣，还有一块没有表带的小屏幕里，同场还推出一副没有摄像头的眼镜。",
+      "body": [
+        "Muse 是 Meta 新发布的 AI 智能体，扎克伯格在发布会上明确公司要「全力投入」它。配套硬件 Muse Charm 看起来像一块配挂绳的智能手表屏幕；无摄像头版 AI 眼镜则主打更轻、最长 12 小时续航。",
+        "这背后的逻辑不难理解——Muse 会登录 Meta 智能眼镜，用户喊它的名字就能唤醒，让它指导锻炼、记录活动，每个 Muse 还配了自己的邮箱，能替用户完成任务、打视频通话。",
+        "这不仅意味着 AI 助手正从「App 里的聊天」走向「随身硬件」，也把隐私问题摆到了台前——有作者在 Inc 撰文称，Muse 读了自己的私信、自己从没要求它这么做。",
+        "归根结底，AI 助手正在争夺你身上最后一块「屏幕」，可怎么保证它不越界，Meta 还没答好。"
+      ],
+      "sources": [
+        {"label": "The Verge · Meta 做独立 Muse 硬件", "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"},
+        {"label": "TechCrunch · Muse 即将推出的所有新功能", "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/"},
+        {"label": "The Verge · Muse 登录智能眼镜", "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features"},
+        {"label": "TechCrunch · Meta 推出无摄像头 AI 眼镜", "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/"},
+        {"label": "The Verge · Muse 更强、可视频通话", "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026"},
+        {"label": "Inc · Muse 读了我的私信", "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/配图/2026-09-24-配图1.jpg",
+        "photographer": "Artem Podrez",
+        "page_url": "https://www.pexels.com/photo/close-up-shot-of-a-man-wearing-vr-glasses-7773384/"
+      }
+    },
+    {
+      "slug": "ai-agents-eat-enterprise-software",
+      "date": "2026-09-24",
+      "title": "AI 智能体开始「吃掉」企业软件：McKinsey 说能省下「协调税」",
+      "tags": ["AI与企业经营", "AI与财务"],
+      "lead": "同一周冒出两条信号：McKinsey 提出 AI 智能体能削减企业协作的「协调税」，做企业 AI 的 Ema 又拿到 7700 万美元融资。AI 正从「写文案」走向「替企业干活」。",
+      "body": [
+        "具体来说，Ema 新融资 7700 万美元、累计 1.4 亿美元，目标是用 AI 取代传统企业软件；它已经有超过 50 家企业客户，其中包括 Google 和 Microsoft。",
+        "这背后的原因在于，McKinsey 把企业里沟通协作的隐性成本叫做「协调税」，主张智能体 AI 能把它降下来、重塑工作流（待核实：报告细节以原文为准）。",
+        "对企业后台——尤其财务、运营——来说，这不仅意味着自动化从「给人用的工具」升级成「能独立完成任务的智能体」，降本增效的故事也随之再进一步。",
+        "从长远来看，AI 智能体正在把「软件」变成「员工」，企业的钱会往这个方向流。"
+      ],
+      "sources": [
+        {"label": "McKinsey · 削减「协调税」", "url": "https://www.mckinsey.com/industries/industrials/our-insights/cutting-the-coordination-tax-how-agentic-ai-can-reshape-workflows"},
+        {"label": "TechCrunch · Ema 融资 7700 万美元", "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/配图/2026-09-24-配图2.jpg",
+        "photographer": "Alex Knight",
+        "page_url": "https://www.pexels.com/photo/high-angle-photo-of-robot-2599244/"
+      }
+    },
+    {
+      "slug": "gemini-4-deepmind",
+      "date": "2026-09-24",
+      "title": "Google DeepMind 新掌门首次发声：Gemini 4「快好了」",
+      "tags": ["大模型"],
+      "lead": "Google DeepMind 的新负责人 Koray Kavukcuoglu 首次媒体亮相，就放出一个明确信号：Gemini 4 正在完善、即将发布。",
+      "body": [
+        "他在亮相中表示，Gemini 4 正处于完善阶段、接近发布。",
+        "这背后是 Google 在旗舰 AI 发布节奏上落后于对手的现实，Gemini 4 因此成了它追赶的关键一步。",
+        "Gemini 4 一旦落地，旗舰大模型的竞争格局会再变一次。",
+        "一句话说，模型军备竞赛没停，Google 的下一张牌就是 Gemini 4。"
+      ],
+      "sources": [
+        {"label": "The Verge · Gemini 4 即将就绪", "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/配图/2026-09-24-配图3.jpg",
+        "photographer": "Pachon in Motion",
+        "page_url": "https://www.pexels.com/photo/futuristic-digital-cubes-with-neon-lights-30547606/"
+      }
+    },
+    {
+      "slug": "ai-data-center-bet",
+      "date": "2026-09-24",
+      "title": "AI 建数据中心，正在变成美国史上最大的「经济赌注」",
+      "tags": ["AI与数据", "AI与企业经营"],
+      "lead": "华尔街把 AI 基建称作「美国史上最大的经济赌注」，而加州已经动手，要求数据中心向社区披露它们用了多少电、多少水。",
+      "body": [
+        "加州州长 Newsom 签署了一揽子法案，让社区能获得更多数据、对数据中心如何影响电费和水资源有更大发言权。",
+        "之所以如此，是因为《华尔街日报》称 AI 基础设施建设正成为美国历史上最大的经济赌注（待核实：该文付费，细节以原文为准），而数据中心在全美扩张，已因耗电耗水引发多地抗议。",
+        "从长远来看，AI 的隐性成本——电、水、钱——正在被摊到明面上，基建投入能不能赚回来，成了这笔「赌注」最大的不确定性。",
+        "说到底，AI 的账不只是模型能力，还有实实在在的电费和水费单。"
+      ],
+      "sources": [
+        {"label": "WSJ · AI 基建成为美国史上最大经济赌注", "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd"},
+        {"label": "The Verge · 加州签署数据中心披露法案", "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/配图/2026-09-24-配图4.jpg",
+        "photographer": "panumas nikhomkhai",
+        "page_url": "https://www.pexels.com/photo/data-center-server-racks-with-active-equipment-37730212/"
+      }
+    }
+  ]
+}

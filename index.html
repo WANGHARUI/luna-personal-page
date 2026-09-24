@@ -4,255 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Luna · 财务</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --paper:#F6F5F1;
-    --ink:#1D2024;
-    --muted:#6B7076;
-    --faint:#9AA0A6;
-    --line:#E2DFD6;
-    --accent:#C6402A;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --paper:#17181B;
-      --ink:#ECEAE3;
-      --muted:#9CA2A9;
-      --faint:#6E737A;
-      --line:#2A2C31;
-      --accent:#E0634B;
-    }
-  }
-  :root[data-theme="dark"]{
-    --paper:#17181B;
-    --ink:#ECEAE3;
-    --muted:#9CA2A9;
-    --faint:#6E737A;
-    --line:#2A2C31;
-    --accent:#E0634B;
-  }
-
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:var(--paper);
-    color:var(--ink);
-    font-family:"Noto Sans SC",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
-    font-size:16px;
-    line-height:1.75;
-    -webkit-font-smoothing:antialiased;
-    text-rendering:optimizeLegibility;
-  }
-  a{color:inherit}
-
-  .page{
-    max-width:760px;
-    margin:0 auto;
-    padding-inline:clamp(20px,5vw,40px);
-    padding-block:clamp(28px,6vh,56px);
-    min-height:100dvh;
-    display:flex;
-    flex-direction:column;
-  }
-
-  /* ---- 顶栏 ---- */
-  .topbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:baseline;
-    gap:16px;
-    padding-bottom:clamp(40px,10vh,80px);
-  }
-  .wordmark{
-    font-family:"Fraunces",Georgia,serif;
-    font-weight:600;
-    font-size:1.05rem;
-    letter-spacing:0.02em;
-    font-optical-sizing:auto;
-  }
-  .topbar-meta{
-    font-family:"IBM Plex Mono","SFMono-Regular",monospace;
-    font-size:0.72rem;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    color:var(--muted);
-  }
-
-  /* ---- Hero ---- */
-  .hero{
-    margin-bottom:clamp(48px,10vh,88px);
-    animation:rise .5s ease both;
-  }
-  .statement-head{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-end;
-    gap:24px;
-    flex-wrap:wrap;
-  }
-  .name{
-    font-family:"Fraunces",Georgia,serif;
-    font-weight:600;
-    font-optical-sizing:auto;
-    font-size:clamp(3.4rem,16vw,7rem);
-    line-height:0.95;
-    letter-spacing:-0.01em;
-    margin:0;
-  }
-  .role{
-    margin:0;
-    font-size:clamp(1rem,2.6vw,1.15rem);
-    font-weight:500;
-    padding-bottom:0.45em;
-    text-align:right;
-  }
-  .role-en{
-    display:block;
-    font-family:"IBM Plex Mono","SFMono-Regular",monospace;
-    font-size:0.72rem;
-    font-weight:400;
-    letter-spacing:0.16em;
-    text-transform:uppercase;
-    color:var(--muted);
-  }
-  .rule{
-    border:0;
-    height:2px;
-    background:var(--accent);
-    margin:clamp(22px,4vh,30px) 0 clamp(26px,5vh,36px);
-  }
-  .tagline{
-    margin:0 0 18px;
-    font-size:clamp(1.2rem,3.4vw,1.55rem);
-    font-weight:500;
-    line-height:1.65;
-    max-width:30ch;
-    text-wrap:balance;
-  }
-  .meta-line{
-    margin:0;
-    font-family:"IBM Plex Mono","SFMono-Regular",monospace;
-    font-size:0.75rem;
-    letter-spacing:0.06em;
-    color:var(--muted);
-  }
-
-  /* ---- 关于我 ---- */
-  .about{
-    padding-top:clamp(32px,6vh,48px);
-    border-top:1px solid var(--line);
-  }
-  .eyebrow{
-    margin:0 0 22px;
-    font-family:"IBM Plex Mono","SFMono-Regular",monospace;
-    font-size:0.72rem;
-    font-weight:500;
-    letter-spacing:0.18em;
-    text-transform:uppercase;
-    color:var(--muted);
-  }
-  .about-body{
-    margin:0;
-    max-width:34em;
-    font-size:1.02rem;
-    line-height:1.95;
-  }
-  .about-body strong{font-weight:600}
-  .tags{
-    list-style:none;
-    margin:30px 0 0;
-    padding:0;
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px 22px;
-  }
-  .tags li{
-    font-family:"IBM Plex Mono","SFMono-Regular",monospace;
-    font-size:0.76rem;
-    letter-spacing:0.05em;
-    color:var(--muted);
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
-  }
-  .tags li::before{
-    content:"";
-    width:6px;
-    height:6px;
-    background:var(--accent);
-  }
-
-  /* ---- 页脚 ---- */
-  .footer{
-    margin-top:auto;
-    padding-top:clamp(32px,6vh,48px);
-    border-top:1px solid var(--line);
-    display:flex;
-    justify-content:space-between;
-    gap:16px;
-    flex-wrap:wrap;
-    font-size:0.78rem;
-    color:var(--muted);
-  }
-  .footer .footer-right a{
-    text-decoration:none;
-    color:var(--ink);
-    border-bottom:1px solid var(--line);
-    transition:border-color .15s ease;
-  }
-  .footer .footer-right a:hover{border-color:var(--accent)}
-  .footer .footer-right a:focus-visible{
-    outline:2px solid var(--accent);
-    outline-offset:3px;
-    border-radius:2px;
-  }
-
-  @keyframes rise{
-    from{opacity:0; transform:translateY(10px)}
-    to{opacity:1; transform:none}
-  }
-  @media (prefers-reduced-motion: reduce){
-    *{animation:none!important; transition:none!important}
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page">
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="index.html">Luna</a>
+  <nav class="nav"><a href="index.html" class="active">首页</a><a href="articles.html">文章列表</a><a href="about.html">关于我</a>
+    <form class="nav-search-form" action="articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
 
-    <header class="topbar">
-      <span class="wordmark">Luna</span>
-      <span class="topbar-meta">财务 · 上海</span>
-    </header>
+  <section class="hero">
+    <div class="statement-head">
+      <h1 class="name">Luna</h1>
+      <p class="role">财务<span class="role-en">Finance</span></p>
+    </div>
+    <hr class="rule">
+    <p class="tagline">我是 Luna，一名财务，擅长把复杂的账讲成一句能听懂的结论。</p>
+    <p class="meta-line">上海 · 2026 · 财务数字化 / 财务分析 / 财务 BP</p>
+  </section>
 
-    <section class="hero">
-      <div class="statement-head">
-        <h1 class="name">Luna</h1>
-        <p class="role">财务<span class="role-en">Finance</span></p>
-      </div>
-      <hr class="rule">
-      <p class="tagline">我是 Luna，一名财务，擅长把复杂的账讲成一句能听懂的结论。</p>
-      <p class="meta-line">上海 · 2026 · 财务数字化 / 财务分析 / 财务 BP</p>
-    </section>
+  <section class="latest">
+    <p class="eyebrow">最新文章 · Writing</p>
+    <ul class="posts"><li><a class="post-link" href="articles/meta-muse-ai-glasses.html"><h3 class="post-title">Meta 把 AI 助手塞进眼镜和钥匙扣，还出了款「无摄像头」眼镜</h3><div class="post-meta">2026-09-24</div></a></li><li><a class="post-link" href="articles/ai-agents-eat-enterprise-software.html"><h3 class="post-title">AI 智能体开始「吃掉」企业软件：McKinsey 说能省下「协调税」</h3><div class="post-meta">2026-09-24</div></a></li><li><a class="post-link" href="articles/gemini-4-deepmind.html"><h3 class="post-title">Google DeepMind 新掌门首次发声：Gemini 4「快好了」</h3><div class="post-meta">2026-09-24</div></a></li><li><a class="post-link" href="articles/ai-data-center-bet.html"><h3 class="post-title">AI 建数据中心，正在变成美国史上最大的「经济赌注」</h3><div class="post-meta">2026-09-24</div></a></li></ul>
+    <p class="more"><a href="articles.html">查看全部 →</a></p>
+  </section>
 
-    <section class="about">
-      <p class="eyebrow">关于我 · About</p>
-      <p class="about-body">做财务这些年，账务与经营分析都做过，也在电商行业（国内 + 跨境）待过。这几年更关注财务数字化——让数据自己说话，让每一笔钱有据可查、每一个决策有数可依。比起埋头做账，我更愿意站在业务旁边，把报表翻译成「下一步该怎么走」。坐标上海，正在寻找财务 AI / 财务数字化 / 财务 BP 方向的机会。</p>
-      <ul class="tags">
-        <li>财务数字化</li>
-        <li>财务分析</li>
-        <li>财务 BP</li>
-        <li>电商财务</li>
-      </ul>
-    </section>
-
-    <footer class="footer">
-      <span>© 2026 Luna</span>
-      <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
-    </footer>
-
-  </main>
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
 </body>
 </html>

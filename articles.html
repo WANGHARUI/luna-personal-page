@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>文章 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="index.html">Luna</a>
+  <nav class="nav"><a href="index.html">首页</a><a href="articles.html" class="active">文章列表</a><a href="about.html">关于我</a>
+    <form class="nav-search-form" action="articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <section>
+    <h1 class="eyebrow">文章 · Articles</h1>
+    <div class="toolbar">
+      <input class="search" id="q" placeholder="搜索标题、摘要、标签…" aria-label="搜索">
+    </div>
+    <div class="toolbar" id="tags"></div>
+    <p class="post-meta" id="count"></p>
+    <ul class="posts" id="list"></ul>
+    <div class="pagination" id="pager"></div>
+  </section>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+<script src="articles-data.js"></script>
+<script>var ARTICLES = window.ARTICLES || [];
+var params = new URLSearchParams(location.search);
+var q = params.get('q') || '';
+var tag = params.get('tag') || '';
+var qInput = document.getElementById('q');
+if (qInput) qInput.value = q;
+
+// 标签筛选条
+var tags = {};
+ARTICLES.forEach(function(a){ (a.tags||[]).forEach(function(t){ tags[t]=1; }); });
+var bar = document.getElementById('tags');
+var all = document.createElement('a');
+all.className = 'chip' + (tag ? '' : ' on');
+all.href = 'articles.html';
+all.textContent = '全部';
+bar.appendChild(all);
+Object.keys(tags).forEach(function(t){
+  var c = document.createElement('a');
+  c.className = 'chip' + (t === tag ? ' on' : '');
+  c.href = 'articles.html?tag=' + encodeURIComponent(t);
+  c.textContent = t;
+  bar.appendChild(c);
+});
+
+function escHtml(s){
+  return String(s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function matches(a){
+  if (tag && (a.tags||[]).indexOf(tag) === -1) return false;
+  if (q){
+    var hay = (a.title + ' ' + (a.summary||'') + ' ' + (a.tags||[]).join(' ')).toLowerCase();
+    if (hay.indexOf(q.toLowerCase()) === -1) return false;
+  }
+  return true;
+}
+var list = ARTICLES.filter(matches);
+var PER = 8, page = 1;
+var total = list.length, pages = Math.max(1, Math.ceil(total / PER));
+
+function render(){
+  var ul = document.getElementById('list');
+  ul.innerHTML = '';
+  var start = (page - 1) * PER, end = Math.min(start + PER, total);
+  for (var i = start; i < end; i++){
+    var a = list[i];
+    var thumb = a.image ? '<img class="post-thumb" src="images/' + a.image + '" alt="">' : '';
+    var chips = (a.tags||[]).map(function(t){
+      return '<a class="chip" href="articles.html?tag=' + encodeURIComponent(t) + '">' + t + '</a>';
+    }).join('');
+    var li = document.createElement('li');
+    li.innerHTML = '<a class="post-link" href="articles/' + a.slug + '.html"><div class="post-row">' + thumb +
+      '<div class="post-info"><h3 class="post-title">' + escHtml(a.title) + '</h3>' +
+      '<div class="post-meta">' + a.date + ' · 约 ' + a.reading + ' 分钟</div>' +
+      '<p class="post-summary">' + escHtml(a.summary || '') + '</p>' +
+      '<div class="post-tags">' + chips + '</div></div></div></a>';
+    ul.appendChild(li);
+  }
+  document.getElementById('count').textContent = total ? ('共 ' + total + ' 篇') : '没有找到相关文章';
+  renderPager();
+}
+function renderPager(){
+  var pg = document.getElementById('pager'); pg.innerHTML = '';
+  if (pages <= 1) return;
+  for (var p = 1; p <= pages; p++){
+    var el;
+    if (p === page){ el = document.createElement('span'); el.className = 'cur'; el.textContent = p; }
+    else {
+      el = document.createElement('a'); el.href = '#'; el.textContent = p;
+      el.onclick = (function(pp){ return function(e){ e.preventDefault(); page = pp; render(); }; })(p);
+    }
+    pg.appendChild(el);
+  }
+}
+if (qInput) qInput.addEventListener('input', function(){ q = this.value; page = 1; render(); });
+render();
+</script>
+</body>
+</html>
