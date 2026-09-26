@@ -1,6 +1,118 @@
 {
   "articles": [
     {
+      "slug": "anthropic-ipo-voting-akamai",
+      "date": "2026-09-26",
+      "title": "Anthropic 冲刺 IPO：创始人要投票权，还要烧 116 亿租算力",
+      "tags": ["AI与企业经营", "大模型"],
+      "lead": "还没上市的 Anthropic，最近连出两招——一边让 7 位创始人抱团拿下 50.1% 的投票权，一边跟云服务商 Akamai 签下七年 116 亿美元的算力大单。",
+      "body": [
+        "据 The Information 报道，Anthropic 正请股东批准：让 CEO Dario Amodei 和另外 6 位联合创始人通过特别股份，在公司大多数事务上合计掌握 50.1% 的投票权，条件是至少有 3 人继续持有最低份额的股份。这种「超级投票权」不新鲜——扎克伯格靠它掌控 Meta、Evan Spiegel 靠它守住 Snap；少见的是 Anthropic 这种「七人抱团」的做法。这 7 位创始人每人仅持股约 2%，还承诺捐出八成财富，新股份不带来额外经济回报，只为上市后保住控制权。",
+        "这套安排还有几处细节：Anthropic 的长期利益信托仍负责选任多数董事；创始人的董事会席位从两席增至三席；员工也拿到自己的股份，能在部分议题上参与表决。据科技媒体此前报道，这家成立五年的公司 5 月估值 9650 亿美元，最近在二级市场已达 1.5 万亿美元，接下来的 IPO 预计会反映这一新估值。",
+        "再看算力。Anthropic 将在七年内向 Akamai 支付 116 亿美元买云基础设施，这是两家 5 月 18 亿美元协议的六倍多，也是 Akamai 历史上最大的一单。更特别的是，Akamai 给了 Anthropic 一份认股权证：以每股 111.33 美元的价格，最多换约 770 万股普通股、约占公司 5% 的股份——首付款到账先解锁约 2%，之后每追加 30 亿美元再解锁约 1%，总盘子最高可到约 200 亿美元。",
+        "这单押的其实是 AI 圈相对冷门的 CPU 赛道：CPU 是跑代码、浏览网页这类通用任务的芯片，随着 AI 智能体承担更多工作，需求正在增长。此前 Amazon、Google、Microsoft、AMD 都一边投资 Anthropic、一边卖它芯片和算力；这次是供应商 Akamai 反过来给客户股权。一句话说，Anthropic 上市前既想拿钱、又想保住方向盘。"
+      ],
+      "sources": [
+        {"label": "TechCrunch · Anthropic 创始人寻求 IPO 前投票控制权", "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/"},
+        {"label": "TechCrunch · Anthropic 与 Akamai 七年 116 亿美元云协议", "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-26/配图/配图1.jpg",
+        "photographer": "Vlada Karpovich",
+        "page_url": "https://www.pexels.com/photo/people-having-a-meeting-7433847/"
+      }
+    },
+    {
+      "slug": "ai-book-french-prize",
+      "date": "2026-09-26",
+      "title": "AI 写书能拿文学奖吗？法国把这部小说除名了",
+      "tags": ["AI监管"],
+      "lead": "AI 写的书，能拿文学奖吗？法国最近用行动给了个答案——一部获奖小说被指控用 AI 代写，随后被移出了龚古尔奖的名单。同一周，唱片巨头也把 AI 音乐公司 Suno 告上了法庭。",
+      "body": [
+        "先看书。小说家 Thelyson Orelien 被指控用 AI 写作，他原本入围的作品被移出了法国最负盛名的文学奖之一——龚古尔奖的名单。",
+        "再看音乐。Sony 和环球音乐再次起诉 Suno，称它的新模型 v6 仍然侵权：因为 v6 是在旧模型的用户输出上训练的，而旧模型又是用从 YouTube 等处抓来的未授权音乐训练的。",
+        "这两件事其实是同一条战线：AI 能写、能谱，但「作品算不算原创」和「训练素材合不合法」两道题，都还没解。",
+        "说到底，AI 创作跑得再快，也得先过「谁写的、用了谁的」这一关。"
+      ],
+      "sources": [
+        {"label": "The Guardian · 小说家被指用 AI 写书、移出法国文学奖", "url": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france"},
+        {"label": "CBC · 这本获奖书是 AI 写的吗", "url": "https://www.cbc.ca/news/canada/montreal/thelyson-orelien-ai-scandal-9.7355167"},
+        {"label": "The Verge · Sony 和环球音乐再告 Suno", "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-26/配图/配图2.jpg",
+        "photographer": "Esma Nur Büyükgüçlü",
+        "page_url": "https://www.pexels.com/photo/vintage-library-interior-with-book-collection-35269123/"
+      }
+    },
+    {
+      "slug": "ai-data-center-power-grid",
+      "date": "2026-09-26",
+      "title": "AI 数据中心「钱和电」双重告急：政府拨款、公司烧钱",
+      "tags": ["AI与数据", "AI与企业经营"],
+      "lead": "AI 数据中心的热度没降，但「钱」和「电」两条线都开始紧绷——美国能源部要砸 52.5 亿美元升级电网，Crusoe 却砍掉了 12.5 亿美元的涡轮机计划，另一家 Nscale 又融到 33.6 亿美元继续建。",
+      "body": [
+        "先说政府这边的「电」。美国能源部将拨款 52.5 亿美元，专门升级电网以支持 AI 数据中心的用电需求——数据中心撞上电力墙，政府得下场修路。",
+        "再看公司这边的「钱」。Crusoe 放弃了在 AI 数据中心使用 Boom 涡轮机的 12.5 亿美元计划，Boom 的 CEO 表示这块已经不在 Crusoe 的近期计划里。",
+        "但钱并没有真的退潮：英国 AI 新云公司 Nscale 在美国 IPO 前，从 Third Point、Nvidia 等投资人手里拿到 33.6 亿美元可转换融资，继续砸向大规模数据中心建设。",
+        "一句话说，AI 基建的钱还在往里涌，但电力瓶颈开始逼着项目「挑着建、省着用」。"
+      ],
+      "sources": [
+        {"label": "The Register · 美能源部 52.5 亿升级电网", "url": "https://www.theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276"},
+        {"label": "TechCrunch · Crusoe 放弃 12.5 亿涡轮机计划", "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"},
+        {"label": "TechCrunch · Nscale 融 33.6 亿美元", "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-26/配图/配图3.jpg",
+        "photographer": "Andy Lee",
+        "page_url": "https://www.pexels.com/photo/electricity-pole-with-wires-18332045/"
+      }
+    },
+    {
+      "slug": "ai-new-grads-unemployment",
+      "date": "2026-09-26",
+      "title": "AI 本应重创应届生，失业数据却说不",
+      "tags": ["AI与职场"],
+      "lead": "「AI 会最先取代应届生」这个说法流行了很久，但一份新研究用数据给出了相反答案——2026 年夏天，美国应届生的失业率并没有比往年更糟。",
+      "body": [
+        "这份工作论文出自慕尼黑 CESifo 研究所的两位研究者，结论直白：应届大学毕业生的雇佣「没有明显、普遍的替代或减少」。他们看的是美国人口普查的微观数据，对象是 22 到 25 岁、不再继续读研的本科毕业生。",
+        "关键数字是：2026 年夏天这批人的失业率是 7.3%，正好落在往年区间内——2022 年是 6.3%，2024 年曾到过 7.8%。也就是说，今年的就业市场「正常得惊人」。",
+        "有意思的是，这跟一个月前斯坦福那项「初级岗占比下降」的研究正好相反。原因在于视角：斯坦福用 ADP 工资单数据，看的是岗位供给；这份研究看的是失业率，把岗位需求也算进去了。",
+        "当然，研究者也留了话：这只能算 AI 影响就业的「第一次测试」，如果 AI 在工作里的使用继续加深，2027 届及以后的毕业生可能比 2026 届更受影响。"
+      ],
+      "sources": [
+        {"label": "Ars Technica · AI 本应重创应届生，失业数据却说不", "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-26/配图/配图4.jpg",
+        "photographer": "clmcdk fejcn",
+        "page_url": "https://www.pexels.com/photo/graduates-celebrating-with-caps-in-the-air-29229903/"
+      }
+    },
+    {
+      "slug": "meta-muse-tamagotchi-glasses",
+      "date": "2026-09-26",
+      "title": "Meta 的 AI「电子宠物」赌注，居然奏效了",
+      "tags": ["AI硬件"],
+      "lead": "这周成了大模型的「发模型周」：Anthropic 刚发布 Opus 5.5，OpenAI 90 分钟后就更新了 GPT-6。但抢到风头的却是 Meta——它那款曾被比作「电子宠物」的个人 AI 助手 Muse，据报用户增长反超了 ChatGPT 早期水平，下一步还要进军智能眼镜和一款迷你设备。",
+      "body": [
+        "据 TechCrunch 的 Equity 播客介绍，Meta 的个人 AI 助手 Muse 的增长「超过了 ChatGPT 早期的数字」，接下来将登陆智能眼镜，以及一款 Tamagotchi（电子宠物）风格的迷你设备。在 OpenAI、Anthropic 把话题放在「放缓前沿」的背景下，Muse 走的是另一条路——消费级、贴身陪伴的路线。",
+        "Muse 要进的智能眼镜，正是 Meta 眼下最重注的硬件。在今年的 Meta Connect 大会上，智能眼镜几乎无处不在——Meta 员工和到场的博主们几乎人人脸上都挂着一副，大部分现场演示也都离不开它。",
+        "其中一款尚未发售的「纯音频」眼镜格外显眼：它装了 6 个麦克风但没有摄像头，也不能录制周围环境，明显是在回应此前「偷拍眼镜」的隐私争议；它比其它款轻得多、戴着更舒服，主打的是听歌和打电话。",
+        "隐私这道坎，Meta 也在从技术上补：公司把「私有处理」的保密计算能力扩展到了 AI 眼镜上，让云端模型帮眼镜完成任务时，Meta 自己无法读取用户数据。像打电话、免提回短信这类指令，很多直接在设备上完成；更高级的功能、需要跨多天记忆和主动工作的能力，则交给云端，用芯片内置的密钥加密，连运营方都碰不到。这种「私有处理」此前在 2025 年已用于 WhatsApp 和 Meta AI 应用，现在被搬到了眼镜上。一句话说，Muse 正从手机里的助手，变成戴在脸上的、更注意隐私的贴身助手。"
+      ],
+      "sources": [
+        {"label": "TechCrunch · Meta 的 AI 电子宠物赌注奏效了", "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/"},
+        {"label": "TechCrunch · Meta Connect 智能眼镜随处可见", "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/"},
+        {"label": "Unite.AI · Meta 把私有处理保密计算扩展到 AI 眼镜", "url": "https://www.unite.ai/meta-expands-private-processing-confidential-computing-to-ai-glasses/"}
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-26/配图/配图5.jpg",
+        "photographer": "GlassesShop GS",
+        "page_url": "https://www.pexels.com/photo/young-man-holding-interchangeable-eyewear-lenses-31087466/"
+      }
+    },
+    {
       "slug": "oracle-ai-data-center-force-majeure",
       "date": "2026-09-25",
       "title": "Oracle 的 AI 数据中心「撑不住」了：发不可抗力通知，2028 上线要跳票",

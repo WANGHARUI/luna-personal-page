@@ -1,5 +1,62 @@
 window.ARTICLES = [
   {
+    "slug": "anthropic-ipo-voting-akamai",
+    "date": "2026-09-26",
+    "title": "Anthropic 冲刺 IPO：创始人要投票权，还要烧 116 亿租算力",
+    "summary": "还没上市的 Anthropic，最近连出两招——一边让 7 位创始人抱团拿下 50.1% 的投票权，一边跟云服务商 Akamai 签下七年 116 亿美元的算力大单。",
+    "tags": [
+      "AI与企业经营",
+      "大模型"
+    ],
+    "image": "anthropic-ipo-voting-akamai.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-book-french-prize",
+    "date": "2026-09-26",
+    "title": "AI 写书能拿文学奖吗？法国把这部小说除名了",
+    "summary": "AI 写的书，能拿文学奖吗？法国最近用行动给了个答案——一部获奖小说被指控用 AI 代写，随后被移出了龚古尔奖的名单。同一周，唱片巨头也把 AI 音乐公司 Suno 告上了法庭。",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "ai-book-french-prize.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "ai-data-center-power-grid",
+    "date": "2026-09-26",
+    "title": "AI 数据中心「钱和电」双重告急：政府拨款、公司烧钱",
+    "summary": "AI 数据中心的热度没降，但「钱」和「电」两条线都开始紧绷——美国能源部要砸 52.5 亿美元升级电网，Crusoe 却砍掉了 12.5 亿美元的涡轮机计划，另一家 Nscale 又融到 33.6 亿美元继续建。",
+    "tags": [
+      "AI与数据",
+      "AI与企业经营"
+    ],
+    "image": "ai-data-center-power-grid.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "ai-new-grads-unemployment",
+    "date": "2026-09-26",
+    "title": "AI 本应重创应届生，失业数据却说不",
+    "summary": "「AI 会最先取代应届生」这个说法流行了很久，但一份新研究用数据给出了相反答案——2026 年夏天，美国应届生的失业率并没有比往年更糟。",
+    "tags": [
+      "AI与职场"
+    ],
+    "image": "ai-new-grads-unemployment.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "meta-muse-tamagotchi-glasses",
+    "date": "2026-09-26",
+    "title": "Meta 的 AI「电子宠物」赌注，居然奏效了",
+    "summary": "这周成了大模型的「发模型周」：Anthropic 刚发布 Opus 5.5，OpenAI 90 分钟后就更新了 GPT-6。但抢到风头的却是 Meta——它那款曾被比作「电子宠物」的个人 AI 助手 Muse，据报用户增长反超了 ChatGPT 早期水平，下一步还要进军智能眼镜和一款迷你设备。",
+    "tags": [
+      "AI硬件"
+    ],
+    "image": "meta-muse-tamagotchi-glasses.jpg",
+    "reading": 2
+  },
+  {
     "slug": "oracle-ai-data-center-force-majeure",
     "date": "2026-09-25",
     "title": "Oracle 的 AI 数据中心「撑不住」了：发不可抗力通知，2028 上线要跳票",
