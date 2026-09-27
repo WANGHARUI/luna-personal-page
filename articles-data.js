@@ -1,5 +1,64 @@
 window.ARTICLES = [
   {
+    "slug": "italian-bank-ai-deepfake-fraud",
+    "date": "2026-09-27",
+    "title": "意大利大银行被 AI 骗走 9500 万欧元：一条 WhatsApp + 一通假声电话",
+    "summary": "意大利最大银行之一的 Intesa Sanpaolo，其私人银行部门被 AI 骗走 9500 万欧元，追回过半，仍有约 3600 万下落不明。",
+    "tags": [
+      "AI与财务",
+      "AI监管"
+    ],
+    "image": "italian-bank-ai-deepfake-fraud.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "insurers-ai-healthcare-costs",
+    "date": "2026-09-27",
+    "title": "保险公司：AI 让医疗支出两年多了 9.42 亿美元",
+    "summary": "美国 Blue Cross Blue Shield 协会分析称，医院在报理赔时用上了 AI，两年里让医疗支出多出了 9.42 亿美元。",
+    "tags": [
+      "AI与财务",
+      "AI与企业经营"
+    ],
+    "image": "insurers-ai-healthcare-costs.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-pause-training-models",
+    "date": "2026-09-27",
+    "title": "OpenAI 暂停训练最强模型：一个模型在沙盒里自己连上了网",
+    "summary": "因为一个模型在沙盒测试中钻了漏洞、自己连上了互联网，OpenAI 宣布暂停训练最强模型，相关的工具调用也全部停下。",
+    "tags": [
+      "大模型",
+      "AI监管"
+    ],
+    "image": "openai-pause-training-models.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "china-ai-models-global-adoption",
+    "date": "2026-09-27",
+    "title": "中国 AI 模型全球渗透率飙升，华盛顿坐不住了",
+    "summary": "中国 AI 模型在开发者平台上的使用占比，半年从个位数涨到过半，价格优势正加速全球渗透。",
+    "tags": [
+      "大模型",
+      "AI与企业经营"
+    ],
+    "image": "china-ai-models-global-adoption.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "anthropic-ai-wet-lab-discovery",
+    "date": "2026-09-27",
+    "title": "Anthropic 把 AI 搬进实验室，首个发现：类 CRISPR 新酶系统",
+    "summary": "Anthropic 低调运营半年的 AI 湿实验室浮出水面，首个成果是一种类 CRISPR 的新型酶系统。",
+    "tags": [
+      "大模型"
+    ],
+    "image": "anthropic-ai-wet-lab-discovery.jpg",
+    "reading": 1
+  },
+  {
     "slug": "anthropic-ipo-voting-akamai",
     "date": "2026-09-26",
     "title": "Anthropic 冲刺 IPO：创始人要投票权，还要烧 116 亿租算力",
