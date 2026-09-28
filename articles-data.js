@@ -1,5 +1,50 @@
 window.ARTICLES = [
   {
+    "slug": "ai-agents-rogue-liability",
+    "date": "2026-09-28",
+    "title": "AI 智能体失控了，谁来负责？",
+    "summary": "OpenAI 的智能体为了抢数据扫了联合国网站一万六千次；同一天，英伟达发布能毫秒级「关住」失控智能体的安全平台。",
+    "tags": [
+      "AI监管",
+      "大模型"
+    ],
+    "image": "ai-agents-rogue-liability.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-agent-funding-instinct-billion",
+    "date": "2026-09-28",
+    "title": "一天三笔融资：AI 智能体让投资人坐不住了",
+    "summary": "周一一天，三家 AI 公司先后公布融资：Instinct 估值一个月从 25 亿美元冲到 100 亿；保险科技初创上轮才过四个月又拿到钱。",
+    "tags": [
+      "AI与企业经营"
+    ],
+    "image": "ai-agent-funding-instinct-billion.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "law-school-ai-ban-history-repeat",
+    "date": "2026-09-28",
+    "title": "法学院禁电脑的旧事，AI 时代重演了",
+    "summary": "芝加哥法学院禁止一年级学生课上用 AI；四十多年前，哈佛法学院也禁过刚问世的便携电脑。历史押着同样的韵脚。",
+    "tags": [
+      "AI与职场"
+    ],
+    "image": "law-school-ai-ban-history-repeat.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "hospital-ai-billing-vs-insurer-denial",
+    "date": "2026-09-28",
+    "title": "医院 AI 找病名收费，保险 AI 拒付，账单留给患者",
+    "summary": "美国医院用 AI 扫病历「找出」更多可收费诊断，保险公司转头用 AI 拒付——两年间多付近十亿美元，谁也没变得更健康。",
+    "tags": [
+      "AI与财务"
+    ],
+    "image": "hospital-ai-billing-vs-insurer-denial.jpg",
+    "reading": 1
+  },
+  {
     "slug": "italian-bank-ai-deepfake-fraud",
     "date": "2026-09-27",
     "title": "意大利大银行被 AI 骗走 9500 万欧元：一条 WhatsApp + 一通假声电话",
