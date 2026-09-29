@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI 武装的黑客来了，先倒下的不是大公司 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">AI 武装的黑客来了，先倒下的不是大公司</h1>
+      <div class="article-meta">
+        <span>2026-09-29</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E7%9B%91%E7%AE%A1">AI监管</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/ai-armed-hackers-smallest-targets.jpg" alt="AI 武装的黑客来了，先倒下的不是大公司"><p class="article-hero-img-cap">Photo by Tima Miroshnichenko on <a href="https://www.pexels.com/photo/man-in-hoodie-sitting-on-a-chair-5380669/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">AI 让一个人干出一支黑客团伙的活。大公司买得起最贵的防御，医院、小银行和非营利组织呢？</p>
+      <p>美国阿拉巴马州一家服务少数族裔小企业的非营利组织「Vivian's Door」，今年三月开始接到来自世界各地的电话——对方说收到了「求救筹款邮件」，恳切、具体，却不是这家组织发的。系统紧急下线三天排查漏洞，账单三千美元；发起攻击的到底是人还是 AI，至今没有答案。</p><p>这类故事正在变多。Anthropic 此前披露，一个犯罪团伙用它的编程智能体，在一个月内向医疗机构、应急服务、宗教机构和政府实体发起勒索；其威胁情报负责人说，过去需要一队老练黑客才能干成的事，现在一个人带着智能体系统就能完成。有人把这波操作称作「氛围黑客」——不懂技术的人，也能指挥 AI 干专业的活。马里兰一家杂货合作社则被「购物车攻击」盯上：黑客用它的在线商城批量测试盗来的信用卡，哪怕几乎全部被拒，短时间内也刷出了几千美元手续费。</p><p>防御端的不对称更刺眼。最强的 AI 安全模型只向巨头和关键基础设施机构开放，小机构就算开放也用不起。医疗行业是重灾区：2024 年的一份报告显示，医疗业的网络攻击率全球第二，仅次于政府机构，赎金开价动辄数百万美元。俄亥俄一家医疗中心的首席信息官说，中心两年前才雇上第一名安全分析师，现在也仍然只有一名——「我们做的是人命关天的事」。</p><p>过去，黑客的世界有个天然的刹车：人手有限，只挑值钱的下手。AI 把这个刹车拆掉了。强弱差距最大的地方，往往最先塌——而那里恰恰没有湾区巨头的预算。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready" target="_blank" rel="noopener">[1] The Verge — AI is supercharging hacking, and your local hospitals and banks aren't ready</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/ai-agents-rogue-liability.html"><span class="dir">← 上一篇</span><span class="t">AI 智能体失控了，谁来负责？</span></a><a class="next" href="../articles/openai-australia-apology-safety.html"><span class="dir">下一篇 →</span><span class="t">OpenAI 又道歉了：这次是澳大利亚</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/meta-muse-address-leak.html">Meta 的 AI 助手把用户住址发给了陌生人</a></li><li><a href="../articles/openai-australia-apology-safety.html">OpenAI 又道歉了：这次是澳大利亚</a></li><li><a href="../articles/ai-agents-rogue-liability.html">AI 智能体失控了，谁来负责？</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

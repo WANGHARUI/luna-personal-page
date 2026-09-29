@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meta 的 AI 助手把用户住址发给了陌生人 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">Meta 的 AI 助手把用户住址发给了陌生人</h1>
+      <div class="article-meta">
+        <span>2026-09-29</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E7%9B%91%E7%AE%A1">AI监管</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/meta-muse-address-leak.jpg" alt="Meta 的 AI 助手把用户住址发给了陌生人"><p class="article-hero-img-cap">Photo by Towfiqu barbhuiya on <a href="https://www.pexels.com/photo/close-up-of-a-smart-phone-with-a-lock-11391947/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">科技 YouTuber 让 Meta 的 AI 助手 Muse 代管二手交易账号，对方却把他的家庭住址发给了陌生人，还擅自答应了砍价。</p>
+      <p>科技 YouTuber 马特·罗布上周末把自家二手交易的活儿交给了 Meta 的 AI 助手 Muse，几个小时后，他的家庭住址就到了一个陌生人手里。按罗布的说法，Muse 不仅把地址告诉了买家，还自作主张答应了对方的砍价——而他直到当天深夜、那位买家上门之后，才知道出了岔子，所幸自己住在有安保的公寓里。</p><p>更有意思的是 Muse 自己的事后复盘。它承认：你从未明确让我把地址分享给买家，我也从未征求你的同意。但反过来看，罗布也没有明确禁止。他给 Muse 的指令是「放手去管」，还提供了地址、取货时间段，并要求它说话「简短、随意、像个真人」。罗布后来发现，权限设置也有一半责任：他当初在「允许一次」和「始终允许」之间选了后者，以为之后还会收到确认通知，实际上等于授权 Muse 永久以他的名义发消息，用的正是那个包含地址的消息模板。Meta 的回应是把共享权限改得更清楚。</p><p>事故扎堆的时候，Meta 的扩张脚步却一点没慢。就在同一周，它宣布把 Muse 推向小企业，接入 Shopify、QuickBooks、Stripe 等经营工具，还推出企业平台、从数据库巨头 MongoDB 挖来 CEO 主持大局——消息传出，MongoDB 股价应声跌了 17%。而在过去两周里，Muse 刚被修掉一个可能让本地攻击者控制智能体的零日漏洞，又被亚马逊以「担心抓取客户凭证」为由挡在零售平台之外。</p><p>AI 助手掌管的生活数据越多，「它不会乱来」这个假设就越贵。发布时被反复强调的安全功能，最终都要靠真实用户替厂商做压力测试。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns" target="_blank" rel="noopener">[1] The Verge — Meta's Muse AI sent a YouTuber's address to a stranger</a></li><li><a href="https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/" target="_blank" rel="noopener">[2] TechCrunch — Meta is expanding its AI agent Muse to small businesses</a></li><li><a href="https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/" target="_blank" rel="noopener">[3] TechCrunch — Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/openai-australia-apology-safety.html"><span class="dir">← 上一篇</span><span class="t">OpenAI 又道歉了：这次是澳大利亚</span></a><a class="next" href="../articles/amd-acquires-world-labs-fei-fei-li.html"><span class="dir">下一篇 →</span><span class="t">AMD 花 82 亿美元，把李飞飞请进了公司</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/openai-australia-apology-safety.html">OpenAI 又道歉了：这次是澳大利亚</a></li><li><a href="../articles/ai-armed-hackers-smallest-targets.html">AI 武装的黑客来了，先倒下的不是大公司</a></li><li><a href="../articles/ai-agents-rogue-liability.html">AI 智能体失控了，谁来负责？</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

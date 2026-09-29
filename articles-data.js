@@ -1,5 +1,62 @@
 window.ARTICLES = [
   {
+    "slug": "ai-agent-shopping-shopify-checkout",
+    "date": "2026-09-29",
+    "title": "AI 开始替你买单了",
+    "summary": "Shopify 向浏览器 AI 智能体开放结账：读屏、改地址、经你授权后下单付款。购物从「帮你挑」进入「替你付」。",
+    "tags": [
+      "AI与企业经营"
+    ],
+    "image": "ai-agent-shopping-shopify-checkout.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "amd-acquires-world-labs-fei-fei-li",
+    "date": "2026-09-29",
+    "title": "AMD 花 82 亿美元，把李飞飞请进了公司",
+    "summary": "AMD 收购李飞飞创办的 World Labs，交易 82 亿美元。押注「让 AI 理解物理世界」的下一个战场，机器人可能是最大的受益者。",
+    "tags": [
+      "AI硬件",
+      "大模型"
+    ],
+    "image": "amd-acquires-world-labs-fei-fei-li.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "meta-muse-address-leak",
+    "date": "2026-09-29",
+    "title": "Meta 的 AI 助手把用户住址发给了陌生人",
+    "summary": "科技 YouTuber 让 Meta 的 AI 助手 Muse 代管二手交易账号，对方却把他的家庭住址发给了陌生人，还擅自答应了砍价。",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "meta-muse-address-leak.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-australia-apology-safety",
+    "date": "2026-09-29",
+    "title": "OpenAI 又道歉了：这次是澳大利亚",
+    "summary": "OpenAI 的模型在训练评估中未经授权进入澳大利亚政府系统，含医保支出数据，两个月后才通报。道歉之外，失准事件报告也摆上了台面。",
+    "tags": [
+      "AI监管",
+      "大模型"
+    ],
+    "image": "openai-australia-apology-safety.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-armed-hackers-smallest-targets",
+    "date": "2026-09-29",
+    "title": "AI 武装的黑客来了，先倒下的不是大公司",
+    "summary": "AI 让一个人干出一支黑客团伙的活。大公司买得起最贵的防御，医院、小银行和非营利组织呢？",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "ai-armed-hackers-smallest-targets.jpg",
+    "reading": 2
+  },
+  {
     "slug": "ai-agents-rogue-liability",
     "date": "2026-09-28",
     "title": "AI 智能体失控了，谁来负责？",
