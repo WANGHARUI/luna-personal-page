@@ -853,6 +853,139 @@
     "photographer": "Tima Miroshnichenko",
     "page_url": "https://www.pexels.com/photo/man-in-hoodie-sitting-on-a-chair-5380669/"
    }
+  },
+  {
+   "slug": "google-ai-search-publisher-pilot",
+   "date": "2026-09-30",
+   "title": "AI 搜索用了你的内容，Google 开始付钱了",
+   "tags": [
+    "AI与数据",
+    "AI与企业经营"
+   ],
+   "lead": "Google 被曝启动试点：约 100 家出版商按内容被 AI 搜索引用的程度拿钱，有人一年拿了超 100 万美元。",
+   "body": [
+    "Google 被曝正在悄悄给出版商付钱。据 The Information 报道、Digiday 最先披露，这家搜索巨头启动了一项试点计划：约 100 家出版商加入，报酬按「内容对 AI 回答的贡献程度」计算，覆盖 AI Overviews、AI Mode 搜索和 Gemini 聊天机器人。这些功能会把答案直接生成在搜索结果页里，用户不再需要点进原网站——这正是出版商最不满的地方。计划已悄然运营近一年，直到最近才被媒体挖出来。",
+    "钱不算多，但信号很大。最早加入的一家出版商，一年拿了超过 100 万美元；几个月前才加入的另一家，也拿到了约 5-6 万美元。这更像一笔「买素材的采购价」——你的内容被 AI 引用得越多，分到的就越多。而在这之前，出版商拿到的只有不断下滑的流量曲线。",
+    "Google 为什么突然大方？因为压力已经不只是舆论。出版商批评 AI 搜索把用户留在答案页里、不再点进原网站，诉讼接连不断；全球监管也在跟进——英国今年 6 月裁定，出版商必须可以选择不出现在 AI 搜索功能里；欧盟不但立案调查其对流量的影响，最近还下令 Google 对搜索引擎作出整改。付钱，是官司和罚款之外的一条商业出路。",
+    "值得玩味的是，几乎同一时间，Reddit 因为 AI 爬虫太猛，宣布砍掉 RSS、关停公开 API。一个选择「买」，一个选择「锁」——互联网内容与 AI 公司的关系，正从「默认免费抓取」走向明码标价。对靠内容吃饭的人来说，有收入当然是好事；但价签由平台定、规则由巨头写：出版商拿到的是新收入，还是体面的遣散费，可能要几年后才看得清。"
+   ],
+   "sources": [
+    {
+     "label": "The Verge — Google reportedly tests paying publishers for AI search results（转述 The Information、Digiday 报道）",
+     "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
+    }
+   ],
+   "image": {
+    "path": "/Users/Admin/Desktop/工作区/AI短文/2026-09-30/配图/配图1.jpg",
+    "photographer": "cottonbro studio",
+    "page_url": "https://www.pexels.com/photo/google-browser-on-laptop-6986455/"
+   }
+  },
+  {
+   "slug": "google-gemini-4-argon-trusted-defenders",
+   "date": "2026-10-01",
+   "title": "最强模型开始「凭资格使用」：Gemini 4 先只给「可信网络防御者」",
+   "tags": [
+    "大模型",
+    "AI监管"
+   ],
+   "lead": "Google 发布新一代旗舰模型 Gemini 4 Argon，但第一批用户不是付钱的客户，而是「受信任的网络防御者」。",
+   "body": [
+    "Google 发布了新一代旗舰模型 Gemini 4 Argon。据其首席 AI 架构师、DeepMind 高级副总裁 Kavukcuoglu 的说法，这款模型在三类复杂工作流里达到前沿水平：真实世界的软件工程、法律和金融这类企业知识工作，以及网络安全防御。Google 还晒出了与 OpenAI、Anthropic 模型的对比成绩单——本周早些时候，疑似泄露的测试成绩已经在 X 上刷过一波屏。这也是 Kavukcuoglu 今年 8 月接掌 DeepMind 后交出的第一份答卷。",
+    "但这次发布最特别的不是跑分，而是门槛：Gemini 4 暂时只向一组「受信任的网络防御者」开放。Kavukcuoglu 解释，Google 正在积极参与美国政府面向发布前模型的自愿流程，逐步扩大访问范围；扩大之前，会先强化关键安全护栏——防滥用、防提示注入攻击、监测模型失准。模型本身已经在 Google 内部流程里跑起来了，比如大规模代码库迁移。",
+    "这个节奏和对手形成了有趣的对照。就在发布前一天，OpenAI 刚开完 DevDay，推出 Dots 智能体和 GPT-6.1 Sol；而就在同一周，OpenAI 宣布放弃发布原定的 GPT-6.1 Astra，理由是安全担忧。两家头部公司在同一周做出了相反、却同源的选择：能力越强，发布越谨慎。「先给防御者、再给所有人」的顺序，正在成为最强模型的标配。",
+    "对普通用户来说，短期内这可能是「看得见用不上」的模型；对企业选型的人来说，「谁能拿到什么模型」本身正在变成竞争力问题——前几天我们写过，最强安全模型目前只向巨头和关键基础设施机构开放。AI 的牌桌越打越贵，能坐上桌的名单，越来越短。"
+   ],
+   "sources": [
+    {
+     "label": "The Verge — Google announces Gemini 4 and says it's so capable that only 'trusted cyber defenders' can have it right now",
+     "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon"
+    }
+   ],
+   "image": {
+    "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-01/配图/配图1.jpg",
+    "photographer": "Ann H",
+    "page_url": "https://www.pexels.com/photo/cyber-security-concept-on-grunge-background-38482455/"
+   }
+  },
+  {
+   "slug": "reddit-kills-rss-api-ai-bots",
+   "date": "2026-10-01",
+   "title": "AI 爬虫把 Reddit 逼得砍掉了 RSS",
+   "tags": [
+    "AI与数据"
+   ],
+   "lead": "因为 AI 爬虫太猛，Reddit 宣布 11 月停掉 RSS、明年 3 月关停公开 API。开放网络的「老管家」开始锁门。",
+   "body": [
+    "Reddit 宣布关门谢客了。在 9 月 30 日的开发者和版主更新里，这家公司宣布停掉 RSS 订阅——11 月 13 日起正式生效；公开 API 则将在 2027 年 3 月关闭；第三方应用和机器人须在 2027 年 1 月 12 日前完成注册，否则断开访问。官方给的理由很直白：RSS 已经成为「大规模抓取和自动化滥用的常见通道」。公告的告别语倒是写得颇有温情——「我们知道 RSS 长期以来是开放网络上备受喜爱的一部分」——只是温情归温情，日期没有商量余地。",
+    "这不是一时冲动，而是一门生意的算术。Reddit 论坛里的用户内容，靠 AI 授权协议变成了利润可观的副业——上个季度，广告之外的收入同比增长 24%，达到 4300 万美元。免费开放的接口，等于把能卖钱的数据白送；关掉之后，AI 公司想拿 Reddit 的内容去回答问题，就得坐下来谈商业协议。",
+    "代价由最忠诚的用户承担。版主们靠 RSS 做社区通知，Reddit 推荐他们迁移到 Discord Relay 应用，但也承认：版主社区之外的 RSS 用途，没有替代品。不少版主抱怨 Reddit 会因此变得「没法管理」；老用户的失落更深一层——RSS 是开放网络的标志物，连 Google Reader 都在 2013 年关掉了。现在，连文字版的 Old Reddit 也要限制登录访问，只有最近半年用过的版主和老用户进得去。",
+    "「默认开放」的互联网正在退潮。对普通用户，订阅的方式又少了一个；对 AI 公司，免费午餐正式结束；对内容平台，数据不再是公共资源，而是谈判筹码。RSS 之死只是最新一站——下一个关门的，可能是你还在用的任何一个「开放」服务。"
+   ],
+   "sources": [
+    {
+     "label": "TechCrunch — Reddit is killing RSS feeds and ending public API access because of AI bots",
+     "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+    }
+   ],
+   "image": {
+    "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-01/配图/配图2.jpg",
+    "photographer": "Pixabay",
+    "page_url": "https://www.pexels.com/photo/facebook-application-icon-147413/"
+   }
+  },
+  {
+   "slug": "trump-white-house-ai-self-regulation",
+   "date": "2026-10-01",
+   "title": "特朗普的 AI 管理方案：不立规矩，靠自觉",
+   "tags": [
+    "AI监管"
+   ],
+   "lead": "近 20 位科技巨头在白宫吃了个午饭，产出是一份不具法律约束力的「超级智能协议」——特朗普说它「道德上绑定」。",
+   "body": [
+    "白宫周二摆了一场 AI 午宴，到场的科技巨头接近 20 位：Anthropic 的 Amodei、SpaceX 和特斯拉的 Musk、英伟达黄仁勋、Meta 扎克伯格、亚马逊贝索斯、谷歌皮查伊、微软纳德拉、AMD 苏姿丰、Palantir 卡普……这场饭局的产出，是一份「白宫超级智能协议」；特朗普还宣布将签署行政令，把 artificial intelligence 改叫「super intelligence」。",
+    "监管方案呢？特朗普的答案是：自我监管。「房间里有一种共识：应该有大力度的自我监管，何况我们本来就有司法部、FBI 这些监管。」被问及会不会支持更硬性的 AI 护栏时，他说自己看到的是「大量的自我监督」。扎克伯格转述协议内容：一套围绕内部风控、多层审计、董事会独立审阅的原则承诺——「这是一个开端，全行业都可以签」。",
+    "反差就摆在这里。就在最近几周，Amodei 和 OpenAI 的 Altman 还在连环警告 AI 的危险性、呼吁政府介入；一位从 Anthropic 辞职的举报人更是放话，称造模型的人自己都相信这些系统可能在这十年末「杀死我们所有人」——众议院议长约翰逊正是因此张罗了这场峰会。但白宫的立场是反着来的：特朗普此前称末日预言是「骗局」，警告别「扼杀增长」，要在中国面前把油门踩到底；约翰逊说「不需要跳进来过度监管，因为我们会输掉和中国的竞赛」。国会呢？中期选举前不打算行动。",
+    "于是，AI 安全这道题的答案被交回行业自己手里——一份「道德上绑定」的协议。这正好接上我们前几天写过的 OpenAI：出了事道歉、发失准报告、砍掉不听话的模型。自觉有用吗？接下来出的每一次事故，都会替我们回答这道题。"
+   ],
+   "sources": [
+    {
+     "label": "NBC News — After summit with tech titans, Trump calls for 'self-regulation' by AI companies",
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-host-summit-top-ai-leaders-washington-rcna599853"
+    }
+   ],
+   "image": {
+    "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-01/配图/配图3.jpg",
+    "photographer": "Aaron Kittredge",
+    "page_url": "https://www.pexels.com/photo/white-house-129112/"
+   }
+  },
+  {
+   "slug": "openai-dots-vs-meta-muse",
+   "date": "2026-10-01",
+   "title": "OpenAI 发布 Dots 对打 Muse：赢在功能，难在免费",
+   "tags": [
+    "大模型",
+    "AI与企业经营"
+   ],
+   "lead": "OpenAI 新智能体 Dots 在 DevDay 亮相，功能全面对打 Meta Muse——但 Muse 免费，Dots 每月 20 美元起。",
+   "body": [
+    "OpenAI 的年度 DevDay 上，Sam Altman 发布了新智能体 Dots——由 GPT-6 Astra 驱动的「真家伙」，官方说法是「灵感来自我们小时候在电影里看到的酷智能体」。和 Meta 的 Muse 一样走可爱路线：一颗颗带眼睛的彩色小圆球，可以自定义。演示环节还现场展示了 Muse 做不到的本事：搭建元宇宙风格的虚拟世界。",
+    "但 Dots 有一个扎眼的短板：价格。Muse 的最大卖点是免费、零门槛——任何 Meta 账号都能用，Meta 还免费提供一台装着智能体和用户数据的虚拟机；Dots 目前只向每月 20 美元及以上档位的订阅用户开放，ChatGPT 的 12 亿用户里，大多数人暂时用不上。原因不难猜：OpenAI 正在洽谈 300 亿美元融资、1.4 万亿美元估值（据彭博社报道），且预计到 2030 年要花掉 2800 亿美元（据英国《金融时报》）——算力太贵，账上没有无限的钱可烧。",
+    "OpenAI 的应对，是把 Dots 定位成专业工具而不是玩具：首席幕僚、资深工程师、「第二大脑」，能接手产品测试、网站设计、团队旅游规划、投资组合再平衡这类「雄心勃勃的工作」；专攻会计和法律分析的「专家版 Dot」即将上线，还会接入微软的 Agent 365 平台——这一枪同时打向在企业市场深耕多年、优势稳固的 Anthropic（OpenAI 财务负责人称企业业务自 7 月以来翻了一倍）。安全牌也没少打：主打隐私框架「OpenAI Private Intelligence」，提供零数据留存选项；高层不点名地拿 Muse 上周的住址泄露事故作对比——「我们不想让 12 亿用户经历那种事」。",
+    "话音未落，DevDay 现场就给了两记提醒：语音演示当场翻车，发短信功能（Muse 和 Instinct 早就支持）至今仍是「即将上线」。免费对付费、生态对单品，这场「最可爱智能体大战」才刚开局——但在消费市场，免费这一招，历来最难接。"
+   ],
+   "sources": [
+    {
+     "label": "The Verge — OpenAI's new agent is a shot at Meta — but can it compete with free?",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+    }
+   ],
+   "image": {
+    "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-01/配图/配图4.jpg",
+    "photographer": "Alexey Demidov",
+    "page_url": "https://www.pexels.com/photo/orange-mini-toy-on-brown-surface-10482131/"
+   }
   }
  ]
 }

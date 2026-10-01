@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI 爬虫把 Reddit 逼得砍掉了 RSS · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">AI 爬虫把 Reddit 逼得砍掉了 RSS</h1>
+      <div class="article-meta">
+        <span>2026-10-01</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E6%95%B0%E6%8D%AE">AI与数据</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/reddit-kills-rss-api-ai-bots.jpg" alt="AI 爬虫把 Reddit 逼得砍掉了 RSS"><p class="article-hero-img-cap">Photo by Pixabay on <a href="https://www.pexels.com/photo/facebook-application-icon-147413/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">因为 AI 爬虫太猛，Reddit 宣布 11 月停掉 RSS、明年 3 月关停公开 API。开放网络的「老管家」开始锁门。</p>
+      <p>Reddit 宣布关门谢客了。在 9 月 30 日的开发者和版主更新里，这家公司宣布停掉 RSS 订阅——11 月 13 日起正式生效；公开 API 则将在 2027 年 3 月关闭；第三方应用和机器人须在 2027 年 1 月 12 日前完成注册，否则断开访问。官方给的理由很直白：RSS 已经成为「大规模抓取和自动化滥用的常见通道」。公告的告别语倒是写得颇有温情——「我们知道 RSS 长期以来是开放网络上备受喜爱的一部分」——只是温情归温情，日期没有商量余地。</p><p>这不是一时冲动，而是一门生意的算术。Reddit 论坛里的用户内容，靠 AI 授权协议变成了利润可观的副业——上个季度，广告之外的收入同比增长 24%，达到 4300 万美元。免费开放的接口，等于把能卖钱的数据白送；关掉之后，AI 公司想拿 Reddit 的内容去回答问题，就得坐下来谈商业协议。</p><p>代价由最忠诚的用户承担。版主们靠 RSS 做社区通知，Reddit 推荐他们迁移到 Discord Relay 应用，但也承认：版主社区之外的 RSS 用途，没有替代品。不少版主抱怨 Reddit 会因此变得「没法管理」；老用户的失落更深一层——RSS 是开放网络的标志物，连 Google Reader 都在 2013 年关掉了。现在，连文字版的 Old Reddit 也要限制登录访问，只有最近半年用过的版主和老用户进得去。</p><p>「默认开放」的互联网正在退潮。对普通用户，订阅的方式又少了一个；对 AI 公司，免费午餐正式结束；对内容平台，数据不再是公共资源，而是谈判筹码。RSS 之死只是最新一站——下一个关门的，可能是你还在用的任何一个「开放」服务。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/" target="_blank" rel="noopener">[1] TechCrunch — Reddit is killing RSS feeds and ending public API access because of AI bots</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/trump-white-house-ai-self-regulation.html"><span class="dir">← 上一篇</span><span class="t">特朗普的 AI 管理方案：不立规矩，靠自觉</span></a><a class="next" href="../articles/google-gemini-4-argon-trusted-defenders.html"><span class="dir">下一篇 →</span><span class="t">最强模型开始「凭资格使用」：Gemini 4 先只给「可信网络防御者」</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/google-ai-search-publisher-pilot.html">AI 搜索用了你的内容，Google 开始付钱了</a></li><li><a href="../articles/ai-data-center-power-grid.html">AI 数据中心「钱和电」双重告急：政府拨款、公司烧钱</a></li><li><a href="../articles/oracle-ai-data-center-force-majeure.html">Oracle 的 AI 数据中心「撑不住」了：发不可抗力通知，2028 上线要跳票</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

@@ -1,5 +1,63 @@
 window.ARTICLES = [
   {
+    "slug": "google-gemini-4-argon-trusted-defenders",
+    "date": "2026-10-01",
+    "title": "最强模型开始「凭资格使用」：Gemini 4 先只给「可信网络防御者」",
+    "summary": "Google 发布新一代旗舰模型 Gemini 4 Argon，但第一批用户不是付钱的客户，而是「受信任的网络防御者」。",
+    "tags": [
+      "大模型",
+      "AI监管"
+    ],
+    "image": "google-gemini-4-argon-trusted-defenders.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "reddit-kills-rss-api-ai-bots",
+    "date": "2026-10-01",
+    "title": "AI 爬虫把 Reddit 逼得砍掉了 RSS",
+    "summary": "因为 AI 爬虫太猛，Reddit 宣布 11 月停掉 RSS、明年 3 月关停公开 API。开放网络的「老管家」开始锁门。",
+    "tags": [
+      "AI与数据"
+    ],
+    "image": "reddit-kills-rss-api-ai-bots.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "trump-white-house-ai-self-regulation",
+    "date": "2026-10-01",
+    "title": "特朗普的 AI 管理方案：不立规矩，靠自觉",
+    "summary": "近 20 位科技巨头在白宫吃了个午饭，产出是一份不具法律约束力的「超级智能协议」——特朗普说它「道德上绑定」。",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "trump-white-house-ai-self-regulation.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-dots-vs-meta-muse",
+    "date": "2026-10-01",
+    "title": "OpenAI 发布 Dots 对打 Muse：赢在功能，难在免费",
+    "summary": "OpenAI 新智能体 Dots 在 DevDay 亮相，功能全面对打 Meta Muse——但 Muse 免费，Dots 每月 20 美元起。",
+    "tags": [
+      "大模型",
+      "AI与企业经营"
+    ],
+    "image": "openai-dots-vs-meta-muse.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "google-ai-search-publisher-pilot",
+    "date": "2026-09-30",
+    "title": "AI 搜索用了你的内容，Google 开始付钱了",
+    "summary": "Google 被曝启动试点：约 100 家出版商按内容被 AI 搜索引用的程度拿钱，有人一年拿了超 100 万美元。",
+    "tags": [
+      "AI与数据",
+      "AI与企业经营"
+    ],
+    "image": "google-ai-search-publisher-pilot.jpg",
+    "reading": 2
+  },
+  {
     "slug": "ai-agent-shopping-shopify-checkout",
     "date": "2026-09-29",
     "title": "AI 开始替你买单了",
