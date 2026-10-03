@@ -1,5 +1,17 @@
 window.ARTICLES = [
   {
+    "slug": "modeloptic-ai-lbo-hands-on",
+    "date": "2026-10-04",
+    "title": "「AI 财务建模能用了」？我花两小时亲手验了一遍",
+    "summary": "「AI 财务建模现在真的能用了」——这话出自厂商自家博客。我干脆用试用版亲手跑了一个完整的 SaaS 杠杆收购模型，结论比想象的有意思。",
+    "tags": [
+      "AI与财务",
+      "AI与职场"
+    ],
+    "image": "modeloptic-ai-lbo-hands-on.jpg",
+    "reading": 3
+  },
+  {
     "slug": "apple-macos-full-disk-access-ai",
     "date": "2026-10-03",
     "title": "AI 智能体吓到苹果：macOS「完全磁盘访问」要加新规",

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>「AI 财务建模能用了」？我花两小时亲手验了一遍 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">「AI 财务建模能用了」？我花两小时亲手验了一遍</h1>
+      <div class="article-meta">
+        <span>2026-10-04</span>
+        <span>Luna</span>
+        <span>约 3 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E8%B4%A2%E5%8A%A1">AI与财务</a><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E8%81%8C%E5%9C%BA">AI与职场</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/modeloptic-ai-lbo-hands-on.jpg" alt="「AI 财务建模能用了」？我花两小时亲手验了一遍"><p class="article-hero-img-cap">Photo by Tima Miroshnichenko on <a href="https://www.pexels.com/photo/business-data-printout-on-white-paper-6694560/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">「AI 财务建模现在真的能用了」——这话出自厂商自家博客。我干脆用试用版亲手跑了一个完整的 SaaS 杠杆收购模型，结论比想象的有意思。</p>
+      <p>说这话的是财务建模平台 Modeloptic 的联合创始人 Luke Harris。他的论点有两个：一是市面上的 Excel AI 插件路线走不通——它们强迫大模型去管理 Excel 这种四十多年前的逐格数据格式，大部分算力浪费在底层机械操作上，而且模型「健忘」，每换个任务就得重新消化一遍整个工作簿；二是他们的解法是行级的建模语言——模型逻辑定义在「行」上而不是「格」上，一键就能写回带活公式的 Excel。配套的官方演示号称：11 分 15 秒、零人工修改，搭出一个完整的 SaaS 杠杆收购（LBO）模型。软文归软文，论证有含金量，我决定自己跑一遍。</p><p>我注册了 7 天免费试用（不需要信用卡），用官方提供的练习素材，下了三条英文指令：第一条导入历史报表、镜像科目表；第二条搭建订阅制收入预测；第三条搭 LBO 交易结构——10 倍 EBITDA 入场、4 倍高级债、卖方票据、现金 sweep，一样不缺。三条指令下来，AI 累计改动了 340 多处，每一处都可查、可预览、可回滚——这是 Excel 天生做不到的。过程中能看到它「懂事」的地方：导数据时主动排除了小计行，发现起始年份数据错位后自己做了修正；最典型的是收入假设，第一版拍脑袋给了个单价，下一版自己换成用真实数据算出来的结果。</p><p>当然不是一次成型。模型跑完，回报率全显示 0%。我在对话框里追问，AI 自己诊断出「数据连接是空的」，重新导入后，46.7% 的内部收益率才跳出来。所以 AI 建模的真实形态不是变魔术，而是「生成、验证、对话修复」的循环。</p><p>数字出来后我自己做了验算：资金来源与用途两边恒等，能对上；把回报倍数开五次方折算成年化，和模型报的 IRR 精确一致。然后我做了个反向压力测试——嫌 46.7% 太高，让 AI 每年加 100 万美元成本压一压。结果回报不降反升，涨到了 47.4%。AI 没算错：这笔成本在入场时把 EBITDA 咬掉了 50 万美元，而卖方是按 10 倍 EBITDA 定价的，买价立刻省下 500 万美元，我的本金投入少了近一成；那笔成本每年只涨一点点，很快被业务增长稀释掉。入场折扣一次性兑现且永久，长期侵蚀被增长对冲——数字它算得全对，但发现「加钱怎么反而更赚」并且追问为什么的，必须是人。</p><p>冷静的边界也要说清楚。指令表面上是三句话，内里全是行话，不懂杠杆收购的人根本下不出来——专家知识是隐藏前提；我复刻的是教学演示，样本太干净，真实公司的乱账没有验证过；演示页的数据全部是厂商自测；正式版每月 200 美元起，并不便宜。所以我的结论不是「AI 取代建模」，而是建模的分工变了：AI 负责把表做对，人负责定假设、审逻辑、判断结果是否合理——最后这一件事，恰恰是模型的全部价值所在。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://www.modeloptic.com/blog/ai-financial-modeling-works-now" target="_blank" rel="noopener">[1] [1] Modeloptic 博客（联合创始人 Luke Harris）— AI-Powered Financial Modeling Works Now</a></li><li><a href="Walkthrough: SaaS LBO（号称 11 分 15 秒零人工修改搭建完整收购模型）— https://www.modeloptic.com/blog/walkthrough-saas-lbo" target="_blank" rel="noopener">[2] [2] Modeloptic 官方演示</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/apple-macos-full-disk-access-ai.html"><span class="dir">← 上一篇</span><span class="t">AI 智能体吓到苹果：macOS「完全磁盘访问」要加新规</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/ai-clay-films-cost.html">184 美元、12 部动画、5 天：一份 AI 短片的成本账</a></li><li><a href="../articles/ai-coding-hospital-bills.html">近 10 亿美元可疑账单：医院用 AI 编码，保险巨头不干了</a></li><li><a href="../articles/law-school-ai-ban-history-repeat.html">法学院禁电脑的旧事，AI 时代重演了</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>
