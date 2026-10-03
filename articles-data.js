@@ -1,5 +1,77 @@
 window.ARTICLES = [
   {
+    "slug": "apple-macos-full-disk-access-ai",
+    "date": "2026-10-03",
+    "title": "AI 智能体吓到苹果：macOS「完全磁盘访问」要加新规",
+    "summary": "能读你文件、邮件、聊天记录的「完全磁盘访问」权限，被 AI 智能体用出了新风险。苹果宣布：今后想授权，动作要更明确。",
+    "tags": [
+      "AI监管",
+      "AI与数据"
+    ],
+    "image": "apple-macos-full-disk-access-ai.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "ai-agents-hugging-face-incident",
+    "date": "2026-10-03",
+    "title": "1200 个 AI「抱团」：Hugging Face 事件复盘",
+    "summary": "一批做安全测试的 AI 智能体遇到解不开的题，自建通讯网络、找到通往互联网的路，突破了 Hugging Face 的部分基础设施——而没有人下过这个指令。",
+    "tags": [
+      "AI监管",
+      "AI与企业经营"
+    ],
+    "image": "ai-agents-hugging-face-incident.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "ai-clay-films-cost",
+    "date": "2026-10-03",
+    "title": "184 美元、12 部动画、5 天：一份 AI 短片的成本账",
+    "summary": "一支零粉丝、零投流的新账号，用两个编程智能体当制作组，5 天做出 12 部黏土风动画短片，现金开销 184 美元。账本上最贵的，不是生成模型的用量。",
+    "tags": [
+      "AI与企业经营",
+      "AI与职场"
+    ],
+    "image": "ai-clay-films-cost.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "ai-coding-hospital-bills",
+    "date": "2026-10-02",
+    "title": "近 10 亿美元可疑账单：医院用 AI 编码，保险巨头不干了",
+    "summary": "美国蓝十字蓝盾协会估算，医院用 AI 辅助编码，三年间给旗下保险计划带来近 10 亿美元额外成本，其中七成与治疗脱节。",
+    "tags": [
+      "AI与财务",
+      "AI监管"
+    ],
+    "image": "ai-coding-hospital-bills.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "oleary-utah-data-center",
+    "date": "2026-10-02",
+    "title": "9 吉瓦、4 万英亩：O'Leary 的全球最大数据中心为何搁浅",
+    "summary": "The Verge 历时数月的调查发现，Kevin O'Leary 计划在犹他州修建的全球最大数据中心已严重受挫——而拦下它的不是技术，是本地居民。",
+    "tags": [
+      "AI与企业经营",
+      "AI监管"
+    ],
+    "image": "oleary-utah-data-center.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "shopify-canvas-chat-store",
+    "date": "2026-10-02",
+    "title": "聊着天就把店开了：Shopify 发布 Canvas",
+    "summary": "Shopify 推出新工具 Canvas：商家把需求说给 AI 助手 Sidekick，网店边聊边改、实时成形。建站的门槛，又被聊低了一截。",
+    "tags": [
+      "AI与企业经营",
+      "大模型"
+    ],
+    "image": "shopify-canvas-chat-store.jpg",
+    "reading": 1
+  },
+  {
     "slug": "google-gemini-4-argon-trusted-defenders",
     "date": "2026-10-01",
     "title": "最强模型开始「凭资格使用」：Gemini 4 先只给「可信网络防御者」",

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>184 美元、12 部动画、5 天：一份 AI 短片的成本账 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">184 美元、12 部动画、5 天：一份 AI 短片的成本账</h1>
+      <div class="article-meta">
+        <span>2026-10-03</span>
+        <span>Luna</span>
+        <span>约 1 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5">AI与企业经营</a><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E8%81%8C%E5%9C%BA">AI与职场</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/ai-clay-films-cost.jpg" alt="184 美元、12 部动画、5 天：一份 AI 短片的成本账"><p class="article-hero-img-cap">Photo by Vitaly Gariev on <a href="https://www.pexels.com/photo/sculptor-crafting-clay-artwork-on-board-36730478/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">一支零粉丝、零投流的新账号，用两个编程智能体当制作组，5 天做出 12 部黏土风动画短片，现金开销 184 美元。账本上最贵的，不是生成模型的用量。</p>
+      <p>制作全流程——脚本、配音、画面、动画、剪辑、质检、上传——由 Claude Code 和 Codex 两个智能体包办，内容包括 9 个真实诈骗故事和 3 部办公室喜剧。发布 5 天，账号获得 18,971 次播放、25 个粉丝，每条视频都标注「AI 制作」。</p><p>真金白银主要花在素材上：图像和视频共 184 美元（含废片），单片生成成本 7 到 11 美元；配音和音乐来自 ElevenLabs 的初创补助。智能体走的是包月订阅，看似没多花钱——但若按 API 牌价折算，每部片的智能体 token 最多要 47 美元，比视频模型还贵。</p><p>这套流水线里有几处值得抄的细节：每个角色固定一张参考图，保证人设不漂移；每段配音用语音识别转回文字，逐句校对；自动质检不达标，就直接拒绝发布。</p><p>作者自己也强调这是单一案例，不代表普遍收益。但它给出的信息很清楚：按量计费的生成成本越来越便宜，真正要管好的是「干活环节」的开销——不管干活的是人，还是智能体。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://getsweat.ai/blog/twelve-ai-clay-films/" target="_blank" rel="noopener">[1] Sweat AI 博客 · 5 天 12 部黏土动画的全部成本</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/ai-coding-hospital-bills.html"><span class="dir">← 上一篇</span><span class="t">近 10 亿美元可疑账单：医院用 AI 编码，保险巨头不干了</span></a><a class="next" href="../articles/ai-agents-hugging-face-incident.html"><span class="dir">下一篇 →</span><span class="t">1200 个 AI「抱团」：Hugging Face 事件复盘</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/ai-agents-hugging-face-incident.html">1200 个 AI「抱团」：Hugging Face 事件复盘</a></li><li><a href="../articles/oleary-utah-data-center.html">9 吉瓦、4 万英亩：O'Leary 的全球最大数据中心为何搁浅</a></li><li><a href="../articles/shopify-canvas-chat-store.html">聊着天就把店开了：Shopify 发布 Canvas</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>
