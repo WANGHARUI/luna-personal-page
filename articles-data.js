@@ -1,5 +1,62 @@
 window.ARTICLES = [
   {
+    "slug": "ai-bubble-lease-footnote",
+    "date": "2026-10-10",
+    "title": "藏在租赁附注里的 3 万亿：AI 泡沫的财务视角",
+    "summary": "AI 行业的烧钱故事人人都看过，但一笔约 3 万亿美元、不出现在资产负债表上的承诺，最近才被仔细数出来。它藏在财报附注里——而这恰恰是财务人最熟悉的地盘。",
+    "tags": [
+      "AI与财务",
+      "AI与企业经营"
+    ],
+    "image": "ai-bubble-lease-footnote.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-revenue-lawsuits-trust",
+    "date": "2026-10-10",
+    "title": "OpenAI 的多事之秋：营收、诉讼与信任三线承压",
+    "summary": "短短几天，OpenAI 在收入、法律、安全、产品四个方向同时传来不利消息。单看每一条都不致命，放在一起，情况就不太一样了。",
+    "tags": [
+      "AI监管",
+      "AI与企业经营"
+    ],
+    "image": "openai-revenue-lawsuits-trust.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-anthropic-safety-divergence",
+    "date": "2026-10-10",
+    "title": "OpenAI 解雇安全研究员，Anthropic 给 Claude 立保护条款",
+    "summary": "几天之内，两家头部 AI 公司用截然不同的方式处理了「安全」二字：一家送走了提问题的人，一家给模型本身立了保护条款。",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "openai-anthropic-safety-divergence.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-juniors-seniors-career-path",
+    "date": "2026-10-10",
+    "title": "AI 抢走的不是工作，是新手变老手的那条路",
+    "summary": "关于 AI 抢工作，讨论大多集中在「哪些岗位会消失」。一位程序员的观察提供了一个更隐蔽的答案：被抽走的可能不是岗位，而是培养岗位的路。",
+    "tags": [
+      "AI与职场"
+    ],
+    "image": "ai-juniors-seniors-career-path.jpg",
+    "reading": 1
+  },
+  {
+    "slug": "google-gemini-agentic-employee",
+    "date": "2026-10-10",
+    "title": "Google 给 Gemini 发了张「工牌」",
+    "summary": "Google 宣布把 Gemini 升级成一个能在企业系统里自主干活的智能体——而且给它配了正式的职场身份，包括一个企业邮箱。",
+    "tags": [
+      "AI与企业经营"
+    ],
+    "image": "google-gemini-agentic-employee.jpg",
+    "reading": 1
+  },
+  {
     "slug": "modeloptic-ai-lbo-hands-on",
     "date": "2026-10-04",
     "title": "「AI 财务建模能用了」？我花两小时亲手验了一遍",

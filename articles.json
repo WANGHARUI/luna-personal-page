@@ -1180,6 +1180,170 @@
         "photographer": "Tima Miroshnichenko",
         "page_url": "https://www.pexels.com/photo/business-data-printout-on-white-paper-6694560/"
       }
+    },
+    {
+      "slug": "ai-bubble-lease-footnote",
+      "date": "2026-10-10",
+      "title": "藏在租赁附注里的 3 万亿：AI 泡沫的财务视角",
+      "tags": [
+        "AI与财务",
+        "AI与企业经营"
+      ],
+      "lead": "AI 行业的烧钱故事人人都看过，但一笔约 3 万亿美元、不出现在资产负债表上的承诺，最近才被仔细数出来。它藏在财报附注里——而这恰恰是财务人最熟悉的地盘。",
+      "body": [
+        "据《华尔街日报》对上市公司文件的统计，美国九家大型科技公司约有 3 万亿美元 AI 基建承诺未计入资产负债表，规模约相当于其现有租赁与长期借款总和的三倍。其中约 1.9 万亿是长期采购承诺——提前锁定芯片等设备的合同；另有约 1.2 万亿是「已签约、未起租」的数据中心租赁，约为一年前的四倍。与此同时，热钱仍在涌入：AI 评测平台 LMArena 刚完成 2 亿美元 B 轮融资，估值十个月从 17 亿美元升至 31 亿。",
+        "这些钱之所以「隐形」，是会计规则使然：采购承诺要到货入库才记为负债，租赁要起租后才确认资产与负债。一家 2029 年才开始租的数据中心，今天的报表上干干净净。报道以 Meta 路易斯安那数据中心项目为例：通过与私募信贷机构合资，大额投入几乎不占用母公司报表。文章还提到 Oracle 背负约 2360 亿美元债务，以及投资人 Michael Burry 对「循环融资」的担忧。",
+        "问题在于，这些承诺大多不可撤销。如果 AI 收入不及预期——此前就有报道称 OpenAI 年化营收比投资者推算的口径低约 200 亿美元——庞大的隐性承诺就可能变成集中减记的风险。对财务人来说，这是「附注比正文重要」的活教材：看一家公司，别只看利润表的热闹，要把附注一页页读完。",
+        "泡沫与否没有定论，但钱的流向骗不了人。学会看附注，比争论涨跌有用。"
+      ],
+      "sources": [
+        {
+          "label": "[1] AInvest：The $3 Trillion AI Debt Hiding in the Lease Footnote（转述《华尔街日报》统计）",
+          "url": "https://www.ainvest.com/news/3-trillion-ai-debt-hiding-lease-footnote-2610/"
+        },
+        {
+          "label": "[2] TechCrunch：Popular AI leaderboard Arena nearly doubles valuation to $3.1B",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        },
+        {
+          "label": "[3] TechCrunch（转述《金融时报》）：OpenAI's revenue is reportedly $20 billion less than previously projected",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+        }
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-10/配图/配图1.jpg",
+        "photographer": "RDNE Stock project",
+        "page_url": "https://www.pexels.com/photo/financial-documents-on-wooden-surface-7821576/"
+      }
+    },
+    {
+      "slug": "openai-revenue-lawsuits-trust",
+      "date": "2026-10-10",
+      "title": "OpenAI 的多事之秋：营收、诉讼与信任三线承压",
+      "tags": [
+        "AI监管",
+        "AI与企业经营"
+      ],
+      "lead": "短短几天，OpenAI 在收入、法律、安全、产品四个方向同时传来不利消息。单看每一条都不致命，放在一起，情况就不太一样了。",
+      "body": [
+        "收入端，据《金融时报》报道，OpenAI 已告诉投资者其年化营收「接近 500 亿美元」，低于此前流传的近 700 亿——那个 700 亿本是投资者为对标 Anthropic 而推算的口径，且两家公司统计方式并不同，可比性有限。法律端，USA Today 母公司及旗下多家地方报纸起诉 OpenAI，指控其未经授权复制「数十万篇」文章训练模型，索赔超过 2.5 亿美元；此前《纽约时报》、大英百科等机构也已提起类似诉讼。安全端，三名被解雇的安全研究员发公开信，否认公司「不当处理敏感信息」的指控，并警告解雇正在产生寒蝉效应。产品端，其本周发布的数百份数学解答被学界顾问组织指出未达既定规范，对方的第一条请求甚至是「停止在专有模型上测试前沿数学难题」。",
+        "这些麻烦并非孤立。营收承压的背景，是今年 3 月单轮 1220 亿美元的巨额融资，和更早泄露的「2025 年营收约 130 亿、支出远超于此」的财务数据；据报道其 IPO 已推迟至 2027 年初。版权诉讼则是媒体行业集体行动的最新一环，安全文化争议更是由来已久。",
+        "三线叠加，意义有两层：对依赖其 API 的企业，这是「关键业务别绑死在一家供应商」的提醒；对行业而言，市场围绕 OpenAI 的「确定性」正在被重新定价。",
+        "坏消息不等于终局，但当四个方向的坏消息出现在同一周，值得每一个旁观者认真看一眼。"
+      ],
+      "sources": [
+        {
+          "label": "[1] TechCrunch（转述《金融时报》）：OpenAI's revenue is reportedly $20 billion less than previously projected",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+        },
+        {
+          "label": "[2] The Verge：USA Today becomes the latest publisher to sue OpenAI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+        },
+        {
+          "label": "[3] TechCrunch：Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+        },
+        {
+          "label": "[4] TechCrunch：OpenAI's math solutions aren't meeting the field's standards yet",
+          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/"
+        }
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-10/配图/配图2.jpg",
+        "photographer": "Suzy Hazelwood",
+        "page_url": "https://www.pexels.com/photo/stack-of-newspapers-3866816/"
+      }
+    },
+    {
+      "slug": "openai-anthropic-safety-divergence",
+      "date": "2026-10-10",
+      "title": "OpenAI 解雇安全研究员，Anthropic 给 Claude 立保护条款",
+      "tags": [
+        "AI监管"
+      ],
+      "lead": "几天之内，两家头部 AI 公司用截然不同的方式处理了「安全」二字：一家送走了提问题的人，一家给模型本身立了保护条款。",
+      "body": [
+        "上周，OpenAI 解雇了三名安全研究员（Jasmine Wang、Tomek Korbak、Mikita Balesni），公司方面称他们「访问并处理敏感公司信息」、违反内部政策；三人周四发公开信否认指控，称解雇让前同事们「不敢再像过去那样说话和工作」。而 Anthropic 一年多来首次更新使用政策，除收紧选举干预、武器开发、监控等高风险用途外，还禁止对 Claude「持续且无必要的辱骂或残忍行为」——不过条款明确只适用于极端情形，不针对日常的用户不满和对抗性测试。",
+        "两家公司的处境并不对称。OpenAI 的安全团队与商业节奏之间的张力是行业老问题，三位研究员在信中写道：「AI 不是普通技术，OpenAI 不是普通公司」，并强调与外部专家的自由协作本身就是安全机制。Anthropic 则长期以安全叙事立身：去年已允许 Claude 结束与「持续有害或辱骂性」用户的对话，还在研究「模型福利」——CEO 阿莫迪自己也坦言「不知道模型是否有意识」。同一问题上，微软 AI 负责人苏莱曼的态度截然相反，认为「模型福利是个错误的概念」。",
+        "真正的影响在人才与市场。安全研究者依赖与外部专家的自由协作，他们用脚投票的方向，会重塑一家公司的安全能力；而公众与监管也在看，头部公司的一举一动都是行业风向标。",
+        "安全从来不是标语，它落在招聘启事和使用条款的每一个字里。"
+      ],
+      "sources": [
+        {
+          "label": "[1] TechCrunch：Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+        },
+        {
+          "label": "[2] The Verge：Anthropic bans 'abusive or cruel behavior' toward Claude",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+        }
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-10/配图/配图3.jpg",
+        "photographer": "panumas nikhomkhai",
+        "page_url": "https://www.pexels.com/photo/data-center-server-racks-with-active-equipment-37730212/"
+      }
+    },
+    {
+      "slug": "ai-juniors-seniors-career-path",
+      "date": "2026-10-10",
+      "title": "AI 抢走的不是工作，是新手变老手的那条路",
+      "tags": [
+        "AI与职场"
+      ],
+      "lead": "关于 AI 抢工作，讨论大多集中在「哪些岗位会消失」。一位程序员的观察提供了一个更隐蔽的答案：被抽走的可能不是岗位，而是培养岗位的路。",
+      "body": [
+        "工程师 Kevin Aleman 在博客中写道：过去初级开发者要花一天完成的活，AI 智能体二十分钟就能干完，还自带测试和文档。效率是真的，问题也是真的——「当写出好代码不再需要理解什么是好代码，会发生什么？」他真正追问的是：下一代资深工程师从哪里来？",
+        "初级工程师的成长，恰恰依赖那些「无聊的部分」：写出糟糕的 SQL 才理解索引，撞上并发冲突才懂竞态。如今这些弯路被 AI 一步跨过，效率上人人受益，经验上却可能出现断层。同期另一个热门讨论则把 AI 编程协作比作「人月神话」——人和 AI 加得再多也不一定更快，协调成本是真实的。",
+        "这个逻辑不只属于程序员。任何职业里「可标准化的部分」都会被 AI 加速接管，而判断力、跨部门沟通这类「非标能力」，恰恰要从处理标准化工作里长出来。对职场人来说，答案不是拒绝 AI，而是有意识地保留自己的「练习题」。",
+        "与其问 AI 会不会抢走工作，不如问：它抢走的这段路，你打算怎么绕过去。"
+      ],
+      "sources": [
+        {
+          "label": "[1] Kevin Aleman：The future, after AI",
+          "url": "https://kevinaleman.com/the-future-after-ai-2767/"
+        },
+        {
+          "label": "[2] Hacker News（视频，仅标题）：AI coding agents have a Mythical Man-Month problem",
+          "url": "https://www.youtube.com/watch?v=92dMxu3wcGI"
+        }
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-10/配图/配图4.jpg",
+        "photographer": "Mizuno K",
+        "page_url": "https://www.pexels.com/photo/vertical-shot-of-a-man-in-a-beige-t-shirt-looking-at-laptop-screen-with-multicoloured-code-12899158/"
+      }
+    },
+    {
+      "slug": "google-gemini-agentic-employee",
+      "date": "2026-10-10",
+      "title": "Google 给 Gemini 发了张「工牌」",
+      "tags": [
+        "AI与企业经营"
+      ],
+      "lead": "Google 宣布把 Gemini 升级成一个能在企业系统里自主干活的智能体——而且给它配了正式的职场身份，包括一个企业邮箱。",
+      "body": [
+        "在周四的 Google Cloud 活动上，公司发布了统一的 Gemini 智能体：不只回答问题，还能替用户把事办了——规划任务、跨业务应用执行、把工作委派给子代理、按需调用多个模型。CEO 皮查伊给出的底气是：Gemini 月活已超 10 亿，财富 100 强里近九成企业在用 Gemini Enterprise。这一步先面向企业，之后再推向消费者。",
+        "企业 Agent 赛道已经拥挤：Meta 的 Muse、OpenAI 的 Dots 先后亮相；今年 8 月以邀请制、零营销上线的创业公司 Instinct 靠短信界面爆红，9 月底估值达 100 亿美元，但巨头入场后压力陡增。Google 的优势在于分发——它要把「同事」直接装进企业已有的工作流。",
+        "当 AI 有了正式身份，麻烦也跟着来了：它能替你发邮件，那它发错一封算谁的？权限怎么给、操作怎么审计、花出去的预算记在谁的头上——财务和 IT 部门都会收到新课题。这已经不是买不买工具的问题，而是内控流程要不要重画的问题。",
+        "AI 从「工具」变成「同事」，组织得重新想一遍人和系统之间的那条线。"
+      ],
+      "sources": [
+        {
+          "label": "[1] TechCrunch：Google brings agentic AI to Gemini, starting with businesses",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+        },
+        {
+          "label": "[2] The Verge：Instinct was the buzziest AI agent around, can it survive Muse?",
+          "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots"
+        }
+      ],
+      "image": {
+        "path": "/Users/Admin/Desktop/工作区/AI短文/2026-10-10/配图/配图5.jpg",
+        "photographer": "Ivan S",
+        "page_url": "https://www.pexels.com/photo/colleagues-using-a-laptop-7212946/"
+      }
     }
   ]
 }
