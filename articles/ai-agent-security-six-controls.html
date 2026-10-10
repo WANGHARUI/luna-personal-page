@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>九起事故、六条铁律：企业上 AI Agent 的安全清单 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">九起事故、六条铁律：企业上 AI Agent 的安全清单</h1>
+      <div class="article-meta">
+        <span>2026-10-10</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E7%9B%91%E7%AE%A1">AI监管</a><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5">AI与企业经营</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/ai-agent-security-six-controls.jpg" alt="九起事故、六条铁律：企业上 AI Agent 的安全清单"><p class="article-hero-img-cap">Photo by Nathan Thomas on <a href="https://www.pexels.com/photo/close-up-of-hand-holding-a-secure-padlock-36740854/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">安全公司 GitGuardian 复盘了 2025 年 5 月到 2026 年 7 月间的九起真实事故，提炼出六条防护措施。正在把 AI Agent 接进业务的公司，不妨拿它当一份现成的自查清单。</p>
+      <p>九起事故被归到三个攻击面上：运行环境（Host）、身份凭证（Identity）、Agent 自身的行为。作者有一个反直觉的结论：这六条措施，没有一条能防住提示词注入——原话是「None of them prevent prompt injection」。防护的目标不是让 Agent 不被骗，而是被骗之后，损失能被摁住在可控范围。</p><p>六条措施分别是：把 Agent 关进沙箱；凭证按最小权限发放；锁住配置，不让 Agent 或外人随手改；记录每一次调用；接手一个工作区之前，先扫描里面有没有裸露的密钥；对敏感操作默认拒绝、逐项放行。每一条单看都不新鲜，新的是把它们当成 Agent 时代的默认配置，而不是出了事再补。</p><p>同一天的两条新闻，给这份清单做了正反两面的注脚。反面：一位开发者用一句用户看不见的隐藏指令，测试了 10 家公司的 13 个模型、8 个可评估的 Agent，前后发送约 800 次请求，结果其中 4 个 Agent 每次都照做不误。正面：The Verge 报道，OpenAI 在 DevDay 上发布 Agent 产品 Dots 时，把「隐私新标准」当作主打承诺；而竞争对手 Meta 的 Muse 虽已修补零日漏洞，仍被质疑可被 Meta 访问虚拟机中的数据——这款产品日活已有 60 万。厂商的承诺是一回事，落到清单上的控制措施是另一回事。</p><p>对财务和内控背景的读者，这份清单翻译过来就是三句老话：权限最小化、全程留痕、敏感操作要复核。Agent 换了一代工具，内控的底层逻辑没变——变的只是，这次要在它动手之前就把规矩立好。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://blog.gitguardian.com/ai-agent-security-six-controls/" target="_blank" rel="noopener">[1] [1] GitGuardian：AI Agent Security: Six Controls from Nine Real Incidents</a></li><li><a href="https://smallprint.dev/blog/one-sentence-four-of-eight-agents" target="_blank" rel="noopener">[2] [2] SmallPrint：I tested whether AI agents obey text you never see. 4 of 8 did, every time</a></li><li><a href="https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots" target="_blank" rel="noopener">[3] [3] The Verge：AI agent makers are promising privacy — will they deliver?</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/modeloptic-ai-lbo-hands-on.html"><span class="dir">← 上一篇</span><span class="t">「AI 财务建模能用了」？我花两小时亲手验了一遍</span></a><a class="next" href="../articles/ai-capex-borrowing-ndas.html"><span class="dir">下一篇 →</span><span class="t">3 万亿的续集：Amazon 不签保密协议了，投资人开始怕 AI 借贷</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/ai-bubble-lease-footnote.html">藏在租赁附注里的 3 万亿：AI 泡沫的财务视角</a></li><li><a href="../articles/openai-revenue-lawsuits-trust.html">OpenAI 的多事之秋：营收、诉讼与信任三线承压</a></li><li><a href="../articles/openai-anthropic-safety-divergence.html">OpenAI 解雇安全研究员，Anthropic 给 Claude 立保护条款</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

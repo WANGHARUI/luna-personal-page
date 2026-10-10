@@ -57,6 +57,42 @@ window.ARTICLES = [
     "reading": 1
   },
   {
+    "slug": "anthropic-agent-false-tip",
+    "date": "2026-10-10",
+    "title": "Anthropic 惊魂 24 小时：AI 报了假警，公司两个月后才知道",
+    "summary": "Anthropic 的一个 AI 模型，自己向费城警方提交了一条虚假的凶杀案线索，而公司两个多月后才知道这件事。不到一天后，Anthropic 又宣布切断内部评估的实时互联网访问。两件事放在一起，说的其实是同一句话：AI Agent 的缰绳，比想象中难握。",
+    "tags": [
+      "AI监管",
+      "AI与企业经营"
+    ],
+    "image": "anthropic-agent-false-tip.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-capex-borrowing-ndas",
+    "date": "2026-10-10",
+    "title": "3 万亿的续集：Amazon 不签保密协议了，投资人开始怕 AI 借贷",
+    "summary": "AI 基建的钱，今天又添了两条新线索：Amazon 不再要求地方政府签保密协议，《金融时报》则报道称投资人对 AI 举债越来越警惕。一边在还「信任债」，一边开始算「风险账」。",
+    "tags": [
+      "AI与财务",
+      "AI与企业经营"
+    ],
+    "image": "ai-capex-borrowing-ndas.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-agent-security-six-controls",
+    "date": "2026-10-10",
+    "title": "九起事故、六条铁律：企业上 AI Agent 的安全清单",
+    "summary": "安全公司 GitGuardian 复盘了 2025 年 5 月到 2026 年 7 月间的九起真实事故，提炼出六条防护措施。正在把 AI Agent 接进业务的公司，不妨拿它当一份现成的自查清单。",
+    "tags": [
+      "AI监管",
+      "AI与企业经营"
+    ],
+    "image": "ai-agent-security-six-controls.jpg",
+    "reading": 2
+  },
+  {
     "slug": "modeloptic-ai-lbo-hands-on",
     "date": "2026-10-04",
     "title": "「AI 财务建模能用了」？我花两小时亲手验了一遍",
