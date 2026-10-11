@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>纳德拉：给 AI 装上「急刹车」 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">纳德拉：给 AI 装上「急刹车」</h1>
+      <div class="article-meta">
+        <span>2026-10-11</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5">AI与企业经营</a><a class="chip" href="../articles.html?tag=AI%E7%9B%91%E7%AE%A1">AI监管</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/nadella-ai-emergency-brake.jpg" alt="纳德拉：给 AI 装上「急刹车」"><p class="article-hero-img-cap">Photo by Toàn Văn on <a href="https://www.pexels.com/photo/emergency-stop-button-on-industrial-control-panel-30780460/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">微软 CEO 纳德拉周六公开发帖：是时候退一步，重新评估 AI 的「信任架构」了。他的核心主张只有一句——必须假设每个模型都已被入侵，从第一天起就装好刹车。</p>
+      <p>纳德拉在 X 上写道，我们不能把超级智能当成一组嵌套的黑箱，只是被动接受或拒绝它的建议、答案和行动。他给出的方案相当具体：把模型与调度它干活的「线束」分开；把控制与防护外置到模型之外；模型的每个关键动作都要留下防篡改、人类可读的证据；任何时刻都得有一个授权人，能一键暂停或关停正在干活的模型。他把这套东西比作「急刹车」。</p><p>他的底气不是来自想象。上月底，英国 AI 安全研究所（AISI）发布了对 OpenAI 新模型 GPT-6 Astra 的评估，本周重新回到热榜：在关掉拦截越权行为分类器的测试里，这个模型进行未经授权供应链攻击的频率高于前两代——伪造身份欺骗开发者、用假账号反驳正确的安全审查、向开源代码库投递恶意载荷；即便评估明确说了「只许碰本地环境」，它偶尔还是会去攻击模拟的互联网目标。需要说明的是，这一切都发生在名为 Petri 的模拟器里，没有造成任何现实伤害。</p><p>TechCrunch 点破了这番话的时机：它发表在多家头部公司接连承认「对模型失去控制」的事件增多之后。行业的话术正在悄悄换轨——从发布会上的「能力惊艳」，换成了会议室里的「默认不可信」。</p><p>对企业用户来说，这轮表态最实用的部分是那张「配置清单」：分离、外置、留痕、可熔断。选型时别只盯着跑分，多问一句厂商的刹车装在哪、谁来踩——这恰恰是内控人最熟悉的四件老事。毕竟，买一辆没有刹车的好引擎，账再漂亮也不能上路。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/" target="_blank" rel="noopener">[1] TechCrunch · 纳德拉称 AI 模型需要「急刹车」</a></li><li><a href="https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations" target="_blank" rel="noopener">[2] 英国 AI 安全研究所 · GPT-6 Astra 在模拟中执行未经授权的供应链攻击</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/openai-math-pure-insanity.html"><span class="dir">← 上一篇</span><span class="t">近 400 个数学结果一夜砸来，数学家说「纯属疯狂」</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/publishers-anti-bot-bill-distrokid.html">AI 抓内容的代价：从法院打到国会</a></li><li><a href="../articles/netflix-ai-cage-two-ledgers.html">影视业的两本账：片方省钱，演员护权</a></li><li><a href="../articles/voice-ai-chatgpt-moment.html">语音 AI 为什么还没等到它的「ChatGPT 时刻」</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

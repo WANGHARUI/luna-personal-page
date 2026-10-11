@@ -1,5 +1,75 @@
 window.ARTICLES = [
   {
+    "slug": "nadella-ai-emergency-brake",
+    "date": "2026-10-11",
+    "title": "纳德拉：给 AI 装上「急刹车」",
+    "summary": "微软 CEO 纳德拉周六公开发帖：是时候退一步，重新评估 AI 的「信任架构」了。他的核心主张只有一句——必须假设每个模型都已被入侵，从第一天起就装好刹车。",
+    "tags": [
+      "AI与企业经营",
+      "AI监管"
+    ],
+    "image": "nadella-ai-emergency-brake.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "openai-math-pure-insanity",
+    "date": "2026-10-11",
+    "title": "近 400 个数学结果一夜砸来，数学家说「纯属疯狂」",
+    "summary": "OpenAI 突然公开了近 400 个 AI 生成的数学成果，铺满 700 多份手稿。三十多位数学家对 The Verge 用的形容词是：震撼、难以招架、前所未有、超现实——以及「纯属疯狂」。",
+    "tags": [
+      "大模型",
+      "AI与职场"
+    ],
+    "image": "openai-math-pure-insanity.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "publishers-anti-bot-bill-distrokid",
+    "date": "2026-10-11",
+    "title": "AI 抓内容的代价：从法院打到国会",
+    "summary": "内容行业的反击升级了：Vogue、Esquire 的母公司们齐聚华盛顿，推动一项针对「隐身爬虫」的联邦法案；另一头，音乐发行商 DistroKid 因 UMG 诉讼开始悄悄下架歌曲——不少无辜艺人的作品也被误删。",
+    "tags": [
+      "AI监管"
+    ],
+    "image": "publishers-anti-bot-bill-distrokid.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "netflix-ai-cage-two-ledgers",
+    "date": "2026-10-11",
+    "title": "影视业的两本账：片方省钱，演员护权",
+    "summary": "同一个星期，影视业亮出了两本互相矛盾的账：釜山电影节上，Netflix 说约 300 部作品用过 AI，导演姜允成称 AI 工作流能省 30%-40% 制作成本；纽约漫展上，尼古拉斯·凯奇宣布因拒签 AI 豁免书，「可能不会再和 Amazon 合作」。",
+    "tags": [
+      "AI与职场",
+      "AI与企业经营"
+    ],
+    "image": "netflix-ai-cage-two-ledgers.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "voice-ai-chatgpt-moment",
+    "date": "2026-10-11",
+    "title": "语音 AI 为什么还没等到它的「ChatGPT 时刻」",
+    "summary": "资本正把数十亿美元砸进语音 AI，每周都有新品宣称「像真人一样说话」。但在从业者自己看来，这个赛道的高光时刻还没来——PolyAI 的 CTO 和 Otter 的 CMO 都这么说。",
+    "tags": [
+      "大模型",
+      "AI与企业经营"
+    ],
+    "image": "voice-ai-chatgpt-moment.png",
+    "reading": 2
+  },
+  {
+    "slug": "ai-ten-minutes-persistence",
+    "date": "2026-10-11",
+    "title": "1222 人实验：AI 一撤走，准确率立刻崩",
+    "summary": "一项已通过同行评审的研究给出了扎心的结论：只是依靠 AI 解决难题 10 分钟，人的坚持力和准确率就会明显下滑——而且 AI 一撤走，立刻现原形。",
+    "tags": [
+      "AI与职场"
+    ],
+    "image": "ai-ten-minutes-persistence.jpg",
+    "reading": 2
+  },
+  {
     "slug": "ai-bubble-lease-footnote",
     "date": "2026-10-10",
     "title": "藏在租赁附注里的 3 万亿：AI 泡沫的财务视角",
