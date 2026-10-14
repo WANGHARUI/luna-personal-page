@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>企业里最危险的 AI 工具，六成出自非技术部门 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">企业里最危险的 AI 工具，六成出自非技术部门</h1>
+      <div class="article-meta">
+        <span>2026-10-14</span>
+        <span>Luna</span>
+        <span>约 2 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E6%95%B0%E6%8D%AE">AI与数据</a><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5">AI与企业经营</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/pluto-security-shadow-ai-tools.jpg" alt="企业里最危险的 AI 工具，六成出自非技术部门"><p class="article-hero-img-cap">Photo by cottonbro studio on <a href="https://www.pexels.com/photo/laptop-with-cyber-security-text-on-the-screen-5483240/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">安全初创 Pluto Security 带着 4,200 万美元融资出场，它的数据很扎眼：企业里六成 AI 风险来自非技术部门自编的工具。</p>
+      <p>CEO 沙哈尔·巴哈特（Shahar Bahat）给 TechCrunch 的观察是两个数字：一款新 AI 工具发布后，2 小时内就会出现在企业环境里；Pluto 在客户环境中检出的风险，约六成出自非开发者随手「vibe」出来的小工具。更出人意料的分布在后头——财务部门排第一，市场、法务随后，专业开发者只排第四。</p><p>案例已经到了荒诞的程度。某财富 500 强的财务员工，自己编了一个管理客户信息和流失分析的应用，直接暴露在公网上。巴哈特的说法更直接：没有一次进场测试是空手而归的，有些客户环境里甚至潜伏着活跃攻击——「对做产品来说这很棒，对那些公司来说就很不妙。」</p><p>Pluto 押注的方向，用她的话说是「从用户行为转向 agent 行为」。软件接入企业的终端安全和设备管理系统，部署传感器，收集员工 AI 工具的提示词、命令、运行进程和权限，再用端侧轻量模型判断 agent 正想做什么；监控对象既包括现成工具，也包括它们依赖的技能、扩展和 MCP 服务器。关键的差别在实时干预：agent 试图越权时，系统可以当场拦下，或者往会话里注入提示、让它转而向人确认。</p><p>生意起步极快。公司 4 月才开始卖产品，年经常性收入已过 200 万美元，客户超过 30 家，包括 Oscar Health、Workato、Sixt 和 AlphaSense。融资分两轮：850 万美元种子轮由 TLV Partners 领投，3,400 万美元 A 轮由 Jump Capital 领投。获客打法也不同寻常：免费平台 Plutonium 让任何人查询公开 AI 组件的风险，聚拢了数千名安全从业者，如今七成销售线索是主动找上门的。</p><p>这笔钱和这组数据合起来是一个信号：当每个部门都在用 AI 造自己的小工具，安全的边界就从机房搬到了每张办公桌——而财务部门，恰恰坐在最前排。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/" target="_blank" rel="noopener">[1] TechCrunch · Pluto Security raises $42M as AI gives enterprise security teams a new headache</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/nadella-ai-emergency-brake.html"><span class="dir">← 上一篇</span><span class="t">纳德拉：给 AI 装上「急刹车」</span></a><a class="next" href="../articles/gemini-4-argon-release.html"><span class="dir">下一篇 →</span><span class="t">Gemini 4 Argon 发布：Google 用五分之一的价格重回牌桌</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/character-ai-bankruptcy-economics.html">AI 陪伴赛道第一块多米诺：Character.ai 破产文件里的三笔账</a></li><li><a href="../articles/ai-agent-84-failures-log.html">AI agent 出错 84 次，只有 10 次是机器抓到的</a></li><li><a href="../articles/shopify-opens-catalog-ai-agents.html">Shopify 开放 10 亿商品目录：任何 AI agent 都能替你下单了</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>

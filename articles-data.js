@@ -1,5 +1,63 @@
 window.ARTICLES = [
   {
+    "slug": "character-ai-bankruptcy-economics",
+    "date": "2026-10-14",
+    "title": "AI 陪伴赛道第一块多米诺：Character.ai 破产文件里的三笔账",
+    "summary": "AI 陪伴平台 Character.ai 申请破产，法庭文件首次晒出完整收支：一个月亏掉的钱，比它最好月份的全部收入还多。",
+    "tags": [
+      "AI与企业经营",
+      "AI与财务"
+    ],
+    "image": "character-ai-bankruptcy-economics.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "ai-agent-84-failures-log",
+    "date": "2026-10-14",
+    "title": "AI agent 出错 84 次，只有 10 次是机器抓到的",
+    "summary": "一位把公司日常运营交给 AI agent 的创业者，公开了五个月的事故日志：84 次出错，只有 10 次被自动检查拦下。",
+    "tags": [
+      "AI与企业经营",
+      "AI与数据"
+    ],
+    "image": "ai-agent-84-failures-log.png",
+    "reading": 3
+  },
+  {
+    "slug": "shopify-opens-catalog-ai-agents",
+    "date": "2026-10-14",
+    "title": "Shopify 开放 10 亿商品目录：任何 AI agent 都能替你下单了",
+    "summary": "Shopify 宣布向所有 AI agent 开放代购：上个月这还是逐家谈的合作，现在任何 agent 接上就能用。",
+    "tags": [
+      "AI与企业经营"
+    ],
+    "image": "shopify-opens-catalog-ai-agents.jpg",
+    "reading": 2
+  },
+  {
+    "slug": "gemini-4-argon-release",
+    "date": "2026-10-14",
+    "title": "Gemini 4 Argon 发布：Google 用五分之一的价格重回牌桌",
+    "summary": "在对手连续发布了数月新模型之后，Google 推出 Gemini 4 Argon，并把 API 价格直接打到竞品的五分之一。",
+    "tags": [
+      "大模型"
+    ],
+    "image": "gemini-4-argon-release.png",
+    "reading": 2
+  },
+  {
+    "slug": "pluto-security-shadow-ai-tools",
+    "date": "2026-10-14",
+    "title": "企业里最危险的 AI 工具，六成出自非技术部门",
+    "summary": "安全初创 Pluto Security 带着 4,200 万美元融资出场，它的数据很扎眼：企业里六成 AI 风险来自非技术部门自编的工具。",
+    "tags": [
+      "AI与数据",
+      "AI与企业经营"
+    ],
+    "image": "pluto-security-shadow-ai-tools.jpg",
+    "reading": 2
+  },
+  {
     "slug": "nadella-ai-emergency-brake",
     "date": "2026-10-11",
     "title": "纳德拉：给 AI 装上「急刹车」",

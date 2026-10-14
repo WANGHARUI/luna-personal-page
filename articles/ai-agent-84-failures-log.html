@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI agent 出错 84 次，只有 10 次是机器抓到的 · Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="page">
+<header class="topbar">
+  <a class="wordmark" href="../index.html">Luna</a>
+  <nav class="nav"><a href="../index.html">首页</a><a href="../articles.html" class="active">文章列表</a><a href="../about.html">关于我</a>
+    <form class="nav-search-form" action="../articles.html" method="get">
+      <input class="nav-search" name="q" placeholder="搜索" aria-label="搜索">
+    </form>
+  </nav>
+</header>
+
+  <article>
+    <header class="article-head">
+      <h1 class="article-title">AI agent 出错 84 次，只有 10 次是机器抓到的</h1>
+      <div class="article-meta">
+        <span>2026-10-14</span>
+        <span>Luna</span>
+        <span>约 3 分钟</span>
+      </div>
+      <div class="post-tags"><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E4%BC%81%E4%B8%9A%E7%BB%8F%E8%90%A5">AI与企业经营</a><a class="chip" href="../articles.html?tag=AI%E4%B8%8E%E6%95%B0%E6%8D%AE">AI与数据</a></div>
+    </header>
+
+    <img class="article-hero-img" src="../images/ai-agent-84-failures-log.png" alt="AI agent 出错 84 次，只有 10 次是机器抓到的"><p class="article-hero-img-cap">Photo by Myburgh Roux on <a href="https://www.pexels.com/photo/programming-codes-screengrab-1102797/" target="_blank" rel="noopener">Pexels</a></p>
+
+    <div class="article-body">
+      <p class="lead">一位把公司日常运营交给 AI agent 的创业者，公开了五个月的事故日志：84 次出错，只有 10 次被自动检查拦下。</p>
+      <p>日志的开头，是一幕值得所有用 agent 的人细看的场景。9 月 11 日凌晨两点，一个 agent 发出紧急报告：购票业务已停摆十天，全站没有一笔成交，申请人工复核。真相是三天前刚卖出两张票——agent 看不见它们，因为它信任的分析工具只在买家浏览器里触发购买事件，这两单又都不是广告带来的，广告平台的归因数据同样看不见。所谓「两个来源独立确认」，其实是同一个盲区的两次视图。整场误报没有任何报错，程序正常退出。</p><p>这位运营者随后做了一件少见的事：五个月记下 agent 的每一次出错，但不按「错在哪」分类，而是按「怎么被发现的」——Bug 清单人人都有，发现机制才是要害。84 起事故里，被确定性检查拦下的 2 起，真报错被看见的 8 起，人不信任数字、追查出来的 28 起，另有 45 起是几周后查别的事情时偶然翻出来的。机器只抓到十分之一，过半的错误靠偶然。</p><p>趋势更让人不安。五个月里事故从 18 起涨到 84 起，他每出一次错就补一道检查——死链检查进了 CI、定价 bug 加了回归测试——每一个都有效，但没有一个抓住过之后的事故。自动化捕获率六个观测期依次是 11%、9%、15%、13%、12%、12%，纹丝不动。</p><p>原因在机制里。早期的 agent 失败是代码失败：语法错误、缺个索引，会自己报错，现有工具几小时就能抓住。agent 变强之后，错误换了一种形状——从正确的数据推出错误的结论：报告语法完美、数字都对，唯独推理是错的，测试对它无从下手。他最贵的误报全是这个形状：把广告平台的归因转化当成销售额，断言生意已停摆九天，而那九天里实际卖出 14 张票；断言某渠道「从未投放过」，而它其实跑了四个月、以不到三分之一的花费带来三倍多的出票。</p><p>这份日志连自己都咬：有次复盘说某项修复「还没人做」，实际三天前就完成了。他随后立了规矩：日志断言要定期拉回系统实测，修正原样留在文件里，不许悄悄改。可复用的经验不长：事故按「捕获方式」而非「出错原因」分类；把「数据为零」当成待验证的问题而不是事实；补检查前先问一句「什么情况下它会失效」。他也提醒，这是一个业务五个月的样本，别把百分比当行业基准。</p><p>整份日志归结为一句话：系统很擅长告诉你机器坏没坏，几乎帮不上「结论对不对」——后一类错，眼下仍然只能靠人。</p><p>注：本文素材为运营者单方发布的复盘文档，数字未经第三方验证。</p>
+    </div>
+
+    <section class="sources"><h2>来源 · Sources</h2><ol><li><a href="https://github.com/taylorancapital/nothing-threw/blob/main/TEN_OF_EIGHTY_FOUR.md" target="_blank" rel="noopener">[1] GitHub · taylorancapital/nothing-threw 复盘文档《Ten of Eighty-Four》</a></li></ol></section>
+    <section class="share">
+  <span>分享 · Share</span>
+  <a href="#" onclick="copyLink(this);return false;">复制链接</a>
+</section>
+<script>
+function copyLink(btn){
+  var t = btn.textContent;
+  navigator.clipboard.writeText(location.href).then(function(){
+    btn.textContent = '已复制 ✓';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  }, function(){
+    btn.textContent = '复制失败';
+    setTimeout(function(){ btn.textContent = t; }, 1500);
+  });
+}
+</script>
+    <div class="pager"><a href="../articles/shopify-opens-catalog-ai-agents.html"><span class="dir">← 上一篇</span><span class="t">Shopify 开放 10 亿商品目录：任何 AI agent 都能替你下单了</span></a><a class="next" href="../articles/character-ai-bankruptcy-economics.html"><span class="dir">下一篇 →</span><span class="t">AI 陪伴赛道第一块多米诺：Character.ai 破产文件里的三笔账</span></a></div>
+    <section class="related"><h2 class="eyebrow">相关文章 · Related</h2><ul><li><a href="../articles/character-ai-bankruptcy-economics.html">AI 陪伴赛道第一块多米诺：Character.ai 破产文件里的三笔账</a></li><li><a href="../articles/shopify-opens-catalog-ai-agents.html">Shopify 开放 10 亿商品目录：任何 AI agent 都能替你下单了</a></li><li><a href="../articles/pluto-security-shadow-ai-tools.html">企业里最危险的 AI 工具，六成出自非技术部门</a></li></ul></section>
+  </article>
+
+<footer class="footer">
+  <span>© 2026 Luna</span>
+  <span class="footer-right">联系我 · <a href="mailto:184539018@qq.com">184539018@qq.com</a></span>
+</footer>
+</main>
+</body>
+</html>
